@@ -1,0 +1,1001 @@
+record_id,user,login_hour,failed_attempts,files_accessed,privilege_level,network_connections,activity_type,anomaly_score,detection_reasons,detected_status,risk_level,incident_status
+1,admin,11,1,2,0,6,Normal,0,No suspicious behaviour detected,Normal,Low,New
+2,employee3,16,1,4,0,4,Normal,0,No suspicious behaviour detected,Normal,Low,New
+3,employee2,14,1,4,0,4,Normal,0,No suspicious behaviour detected,Normal,Low,New
+4,analyst,12,1,1,0,1,Normal,0,No suspicious behaviour detected,Normal,Low,New
+5,employee3,12,1,3,0,5,Normal,0,No suspicious behaviour detected,Normal,Low,New
+6,employee3,8,0,4,0,7,Normal,0,No suspicious behaviour detected,Normal,Low,New
+7,employee1,17,1,4,0,5,Normal,0,No suspicious behaviour detected,Normal,Low,New
+8,admin,13,0,1,0,3,Normal,0,No suspicious behaviour detected,Normal,Low,New
+9,admin,14,0,2,0,4,Normal,0,No suspicious behaviour detected,Normal,Low,New
+10,employee2,11,0,8,0,2,Normal,0,No suspicious behaviour detected,Normal,Low,New
+11,employee1,9,0,5,0,7,Normal,0,No suspicious behaviour detected,Normal,Low,New
+12,analyst,11,1,8,1,2,Normal,0,No suspicious behaviour detected,Normal,Low,New
+13,employee2,8,0,1,0,4,Normal,0,No suspicious behaviour detected,Normal,Low,New
+14,analyst,0,10,45,2,30,Suspicious,100,"Unusual login time, Multiple failed login attempts, Excessive file access, Unusual privilege escalation, Unusual network connections",Suspicious,High,New
+15,employee1,4,10,20,2,31,Suspicious,100,"Unusual login time, Multiple failed login attempts, Excessive file access, Unusual privilege escalation, Unusual network connections",Suspicious,High,New
+16,employee1,9,1,8,0,6,Normal,0,No suspicious behaviour detected,Normal,Low,New
+17,analyst,8,1,5,0,2,Normal,0,No suspicious behaviour detected,Normal,Low,New
+18,employee2,18,0,8,1,7,Normal,0,No suspicious behaviour detected,Normal,Low,New
+19,analyst,8,0,4,0,5,Normal,0,No suspicious behaviour detected,Normal,Low,New
+20,employee1,12,0,7,0,6,Normal,0,No suspicious behaviour detected,Normal,Low,New
+21,employee3,15,0,3,0,2,Normal,0,No suspicious behaviour detected,Normal,Low,New
+22,admin,15,1,4,1,5,Normal,0,No suspicious behaviour detected,Normal,Low,New
+23,admin,17,1,2,0,6,Normal,0,No suspicious behaviour detected,Normal,Low,New
+24,analyst,13,0,8,0,1,Normal,0,No suspicious behaviour detected,Normal,Low,New
+25,analyst,8,1,5,0,2,Normal,0,No suspicious behaviour detected,Normal,Low,New
+26,analyst,8,1,1,0,6,Normal,0,No suspicious behaviour detected,Normal,Low,New
+27,admin,14,0,3,0,6,Normal,0,No suspicious behaviour detected,Normal,Low,New
+28,employee3,2,5,23,2,31,Suspicious,100,"Unusual login time, Multiple failed login attempts, Excessive file access, Unusual privilege escalation, Unusual network connections",Suspicious,High,New
+29,employee1,3,10,36,2,15,Suspicious,100,"Unusual login time, Multiple failed login attempts, Excessive file access, Unusual privilege escalation, Unusual network connections",Suspicious,High,New
+30,employee2,4,7,28,2,34,Suspicious,100,"Unusual login time, Multiple failed login attempts, Excessive file access, Unusual privilege escalation, Unusual network connections",Suspicious,High,New
+31,employee2,12,1,2,0,4,Normal,0,No suspicious behaviour detected,Normal,Low,New
+32,employee2,9,1,6,0,7,Normal,0,No suspicious behaviour detected,Normal,Low,New
+33,employee1,17,1,3,0,5,Normal,0,No suspicious behaviour detected,Normal,Low,New
+34,admin,11,0,4,0,2,Normal,0,No suspicious behaviour detected,Normal,Low,New
+35,employee2,13,1,5,0,4,Normal,0,No suspicious behaviour detected,Normal,Low,New
+36,employee2,10,1,2,0,7,Normal,0,No suspicious behaviour detected,Normal,Low,New
+37,employee3,10,0,2,0,2,Normal,0,No suspicious behaviour detected,Normal,Low,New
+38,analyst,18,0,1,0,1,Normal,0,No suspicious behaviour detected,Normal,Low,New
+39,analyst,3,10,45,2,29,Suspicious,100,"Unusual login time, Multiple failed login attempts, Excessive file access, Unusual privilege escalation, Unusual network connections",Suspicious,High,New
+40,admin,15,1,3,0,4,Normal,0,No suspicious behaviour detected,Normal,Low,New
+41,admin,14,0,1,0,6,Normal,0,No suspicious behaviour detected,Normal,Low,New
+42,employee1,12,0,5,0,5,Normal,0,No suspicious behaviour detected,Normal,Low,New
+43,employee3,18,0,4,0,2,Normal,0,No suspicious behaviour detected,Normal,Low,New
+44,admin,3,9,49,2,36,Suspicious,100,"Unusual login time, Multiple failed login attempts, Excessive file access, Unusual privilege escalation, Unusual network connections",Suspicious,High,New
+45,employee3,17,0,2,0,2,Normal,0,No suspicious behaviour detected,Normal,Low,New
+46,analyst,15,1,3,0,7,Normal,0,No suspicious behaviour detected,Normal,Low,New
+47,employee2,4,6,35,2,19,Suspicious,100,"Unusual login time, Multiple failed login attempts, Excessive file access, Unusual privilege escalation, Unusual network connections",Suspicious,High,New
+48,analyst,13,1,2,0,4,Normal,0,No suspicious behaviour detected,Normal,Low,New
+49,employee2,12,0,3,0,3,Normal,0,No suspicious behaviour detected,Normal,Low,New
+50,admin,11,1,4,0,1,Normal,0,No suspicious behaviour detected,Normal,Low,New
+51,employee2,10,1,3,0,5,Normal,0,No suspicious behaviour detected,Normal,Low,New
+52,admin,9,1,9,0,6,Normal,0,No suspicious behaviour detected,Normal,Low,New
+53,employee1,16,1,2,0,4,Normal,0,No suspicious behaviour detected,Normal,Low,New
+54,employee1,9,1,4,0,7,Normal,0,No suspicious behaviour detected,Normal,Low,New
+55,employee1,14,1,9,0,1,Normal,0,No suspicious behaviour detected,Normal,Low,New
+56,analyst,8,0,3,0,5,Normal,0,No suspicious behaviour detected,Normal,Low,New
+57,employee3,16,0,9,0,2,Normal,0,No suspicious behaviour detected,Normal,Low,New
+58,employee1,11,1,8,0,4,Normal,0,No suspicious behaviour detected,Normal,Low,New
+59,admin,14,0,8,0,7,Normal,0,No suspicious behaviour detected,Normal,Low,New
+60,admin,10,0,8,0,3,Normal,0,No suspicious behaviour detected,Normal,Low,New
+61,admin,14,1,1,0,7,Normal,0,No suspicious behaviour detected,Normal,Low,New
+62,employee2,9,0,6,0,6,Normal,0,No suspicious behaviour detected,Normal,Low,New
+63,analyst,17,0,5,1,5,Normal,0,No suspicious behaviour detected,Normal,Low,New
+64,employee2,15,1,9,0,2,Normal,0,No suspicious behaviour detected,Normal,Low,New
+65,employee3,17,1,6,0,7,Normal,0,No suspicious behaviour detected,Normal,Low,New
+66,admin,8,0,4,1,1,Normal,0,No suspicious behaviour detected,Normal,Low,New
+67,employee2,13,0,7,0,5,Normal,0,No suspicious behaviour detected,Normal,Low,New
+68,employee3,9,0,7,0,6,Normal,0,No suspicious behaviour detected,Normal,Low,New
+69,analyst,13,0,7,0,2,Normal,0,No suspicious behaviour detected,Normal,Low,New
+70,employee2,14,1,4,1,1,Normal,0,No suspicious behaviour detected,Normal,Low,New
+71,analyst,15,1,4,0,2,Normal,0,No suspicious behaviour detected,Normal,Low,New
+72,employee1,13,0,6,0,3,Normal,0,No suspicious behaviour detected,Normal,Low,New
+73,employee2,8,1,9,0,5,Normal,0,No suspicious behaviour detected,Normal,Low,New
+74,employee2,17,0,2,0,1,Normal,0,No suspicious behaviour detected,Normal,Low,New
+75,analyst,16,0,3,0,7,Normal,0,No suspicious behaviour detected,Normal,Low,New
+76,employee3,11,1,7,0,4,Normal,0,No suspicious behaviour detected,Normal,Low,New
+77,analyst,11,0,3,0,4,Normal,0,No suspicious behaviour detected,Normal,Low,New
+78,employee1,8,1,5,1,3,Normal,0,No suspicious behaviour detected,Normal,Low,New
+79,analyst,12,0,5,1,4,Normal,0,No suspicious behaviour detected,Normal,Low,New
+80,employee3,15,1,7,0,3,Normal,0,No suspicious behaviour detected,Normal,Low,New
+81,employee2,13,0,8,1,2,Normal,0,No suspicious behaviour detected,Normal,Low,New
+82,employee3,17,1,3,0,7,Normal,0,No suspicious behaviour detected,Normal,Low,New
+83,employee3,16,0,5,0,3,Normal,0,No suspicious behaviour detected,Normal,Low,New
+84,employee2,17,0,5,0,6,Normal,0,No suspicious behaviour detected,Normal,Low,New
+85,analyst,11,1,2,0,7,Normal,0,No suspicious behaviour detected,Normal,Low,New
+86,employee3,12,1,7,0,1,Normal,0,No suspicious behaviour detected,Normal,Low,New
+87,analyst,2,11,28,2,28,Suspicious,100,"Unusual login time, Multiple failed login attempts, Excessive file access, Unusual privilege escalation, Unusual network connections",Suspicious,High,New
+88,employee1,11,1,9,0,6,Normal,0,No suspicious behaviour detected,Normal,Low,New
+89,analyst,12,1,4,0,2,Normal,0,No suspicious behaviour detected,Normal,Low,New
+90,employee3,13,0,6,1,5,Normal,0,No suspicious behaviour detected,Normal,Low,New
+91,employee2,16,0,5,0,6,Normal,0,No suspicious behaviour detected,Normal,Low,New
+92,analyst,17,0,2,0,7,Normal,0,No suspicious behaviour detected,Normal,Low,New
+93,admin,11,1,5,0,4,Normal,0,No suspicious behaviour detected,Normal,Low,New
+94,analyst,18,1,9,0,3,Normal,0,No suspicious behaviour detected,Normal,Low,New
+95,employee3,15,0,8,0,5,Normal,0,No suspicious behaviour detected,Normal,Low,New
+96,employee2,13,0,7,0,5,Normal,0,No suspicious behaviour detected,Normal,Low,New
+97,employee2,17,0,3,0,5,Normal,0,No suspicious behaviour detected,Normal,Low,New
+98,analyst,18,0,1,0,5,Normal,0,No suspicious behaviour detected,Normal,Low,New
+99,employee3,12,0,8,0,4,Normal,0,No suspicious behaviour detected,Normal,Low,New
+100,employee2,8,1,2,1,1,Normal,0,No suspicious behaviour detected,Normal,Low,New
+101,admin,8,0,9,0,5,Normal,0,No suspicious behaviour detected,Normal,Low,New
+102,admin,16,1,9,1,3,Normal,0,No suspicious behaviour detected,Normal,Low,New
+103,employee2,4,9,45,2,30,Suspicious,100,"Unusual login time, Multiple failed login attempts, Excessive file access, Unusual privilege escalation, Unusual network connections",Suspicious,High,New
+104,employee3,14,0,9,0,7,Normal,0,No suspicious behaviour detected,Normal,Low,New
+105,admin,10,1,4,0,3,Normal,0,No suspicious behaviour detected,Normal,Low,New
+106,employee1,11,0,2,0,5,Normal,0,No suspicious behaviour detected,Normal,Low,New
+107,analyst,13,0,7,0,1,Normal,0,No suspicious behaviour detected,Normal,Low,New
+108,admin,1,4,48,2,33,Suspicious,100,"Unusual login time, Multiple failed login attempts, Excessive file access, Unusual privilege escalation, Unusual network connections",Suspicious,High,New
+109,employee3,13,1,5,0,1,Normal,0,No suspicious behaviour detected,Normal,Low,New
+110,employee2,1,10,33,2,16,Suspicious,100,"Unusual login time, Multiple failed login attempts, Excessive file access, Unusual privilege escalation, Unusual network connections",Suspicious,High,New
+111,employee3,10,0,1,0,7,Normal,0,No suspicious behaviour detected,Normal,Low,New
+112,employee2,11,1,6,0,3,Normal,0,No suspicious behaviour detected,Normal,Low,New
+113,employee1,0,7,50,2,25,Suspicious,100,"Unusual login time, Multiple failed login attempts, Excessive file access, Unusual privilege escalation, Unusual network connections",Suspicious,High,New
+114,admin,15,1,1,0,2,Normal,0,No suspicious behaviour detected,Normal,Low,New
+115,employee3,8,0,7,0,1,Normal,0,No suspicious behaviour detected,Normal,Low,New
+116,employee3,17,1,5,0,3,Normal,0,No suspicious behaviour detected,Normal,Low,New
+117,employee2,13,1,2,0,7,Normal,0,No suspicious behaviour detected,Normal,Low,New
+118,employee3,23,6,56,2,32,Suspicious,100,"Unusual login time, Multiple failed login attempts, Excessive file access, Unusual privilege escalation, Unusual network connections",Suspicious,High,New
+119,admin,15,0,2,0,5,Normal,0,No suspicious behaviour detected,Normal,Low,New
+120,employee3,9,1,2,0,5,Normal,0,No suspicious behaviour detected,Normal,Low,New
+121,employee3,11,0,4,0,3,Normal,0,No suspicious behaviour detected,Normal,Low,New
+122,employee2,12,1,4,0,4,Normal,0,No suspicious behaviour detected,Normal,Low,New
+123,employee3,18,1,7,0,5,Normal,0,No suspicious behaviour detected,Normal,Low,New
+124,employee3,15,0,3,0,3,Normal,0,No suspicious behaviour detected,Normal,Low,New
+125,analyst,16,0,1,0,4,Normal,0,No suspicious behaviour detected,Normal,Low,New
+126,employee2,12,1,2,0,7,Normal,0,No suspicious behaviour detected,Normal,Low,New
+127,employee1,15,0,6,0,1,Normal,0,No suspicious behaviour detected,Normal,Low,New
+128,employee3,14,0,7,1,2,Normal,0,No suspicious behaviour detected,Normal,Low,New
+129,employee1,11,0,7,0,2,Normal,0,No suspicious behaviour detected,Normal,Low,New
+130,employee2,13,0,6,0,5,Normal,0,No suspicious behaviour detected,Normal,Low,New
+131,employee3,18,0,9,0,6,Normal,0,No suspicious behaviour detected,Normal,Low,New
+132,admin,13,1,3,0,6,Normal,0,No suspicious behaviour detected,Normal,Low,New
+133,employee1,9,1,4,0,4,Normal,0,No suspicious behaviour detected,Normal,Low,New
+134,analyst,2,6,27,2,22,Suspicious,100,"Unusual login time, Multiple failed login attempts, Excessive file access, Unusual privilege escalation, Unusual network connections",Suspicious,High,New
+135,employee1,12,0,1,0,1,Normal,0,No suspicious behaviour detected,Normal,Low,New
+136,employee1,13,0,2,0,2,Normal,0,No suspicious behaviour detected,Normal,Low,New
+137,employee2,9,1,1,0,5,Normal,0,No suspicious behaviour detected,Normal,Low,New
+138,admin,17,1,4,0,4,Normal,0,No suspicious behaviour detected,Normal,Low,New
+139,employee2,14,1,8,0,6,Normal,0,No suspicious behaviour detected,Normal,Low,New
+140,analyst,8,1,4,0,2,Normal,0,No suspicious behaviour detected,Normal,Low,New
+141,employee1,9,1,3,0,1,Normal,0,No suspicious behaviour detected,Normal,Low,New
+142,employee2,18,1,9,0,2,Normal,0,No suspicious behaviour detected,Normal,Low,New
+143,employee3,9,1,6,0,6,Normal,0,No suspicious behaviour detected,Normal,Low,New
+144,employee2,16,0,6,1,3,Normal,0,No suspicious behaviour detected,Normal,Low,New
+145,employee2,13,1,4,0,1,Normal,0,No suspicious behaviour detected,Normal,Low,New
+146,admin,3,5,28,2,24,Suspicious,100,"Unusual login time, Multiple failed login attempts, Excessive file access, Unusual privilege escalation, Unusual network connections",Suspicious,High,New
+147,employee1,13,1,1,0,5,Normal,0,No suspicious behaviour detected,Normal,Low,New
+148,employee3,17,0,3,0,6,Normal,0,No suspicious behaviour detected,Normal,Low,New
+149,employee2,15,1,2,0,5,Normal,0,No suspicious behaviour detected,Normal,Low,New
+150,employee1,18,1,2,0,2,Normal,0,No suspicious behaviour detected,Normal,Low,New
+151,employee1,15,0,5,0,7,Normal,0,No suspicious behaviour detected,Normal,Low,New
+152,admin,9,1,3,0,6,Normal,0,No suspicious behaviour detected,Normal,Low,New
+153,employee1,1,10,45,2,27,Suspicious,100,"Unusual login time, Multiple failed login attempts, Excessive file access, Unusual privilege escalation, Unusual network connections",Suspicious,High,New
+154,employee3,10,1,5,0,7,Normal,0,No suspicious behaviour detected,Normal,Low,New
+155,analyst,2,7,31,2,34,Suspicious,100,"Unusual login time, Multiple failed login attempts, Excessive file access, Unusual privilege escalation, Unusual network connections",Suspicious,High,New
+156,employee3,13,0,8,0,7,Normal,0,No suspicious behaviour detected,Normal,Low,New
+157,employee2,8,0,6,0,1,Normal,0,No suspicious behaviour detected,Normal,Low,New
+158,employee3,8,0,9,0,2,Normal,0,No suspicious behaviour detected,Normal,Low,New
+159,employee1,9,1,7,0,3,Normal,0,No suspicious behaviour detected,Normal,Low,New
+160,employee3,18,0,1,0,5,Normal,0,No suspicious behaviour detected,Normal,Low,New
+161,employee2,13,1,6,0,5,Normal,0,No suspicious behaviour detected,Normal,Low,New
+162,employee2,9,0,5,0,5,Normal,0,No suspicious behaviour detected,Normal,Low,New
+163,employee3,14,0,5,0,5,Normal,0,No suspicious behaviour detected,Normal,Low,New
+164,admin,16,0,9,0,6,Normal,0,No suspicious behaviour detected,Normal,Low,New
+165,employee1,13,1,2,0,5,Normal,0,No suspicious behaviour detected,Normal,Low,New
+166,employee3,15,0,3,0,1,Normal,0,No suspicious behaviour detected,Normal,Low,New
+167,employee3,15,1,1,0,1,Normal,0,No suspicious behaviour detected,Normal,Low,New
+168,admin,18,1,2,0,1,Normal,0,No suspicious behaviour detected,Normal,Low,New
+169,analyst,12,0,5,0,3,Normal,0,No suspicious behaviour detected,Normal,Low,New
+170,employee2,12,0,5,0,1,Normal,0,No suspicious behaviour detected,Normal,Low,New
+171,admin,14,1,9,0,4,Normal,0,No suspicious behaviour detected,Normal,Low,New
+172,admin,12,1,2,0,4,Normal,0,No suspicious behaviour detected,Normal,Low,New
+173,analyst,10,0,6,1,5,Normal,0,No suspicious behaviour detected,Normal,Low,New
+174,admin,4,10,35,2,28,Suspicious,100,"Unusual login time, Multiple failed login attempts, Excessive file access, Unusual privilege escalation, Unusual network connections",Suspicious,High,New
+175,employee2,11,1,9,0,7,Normal,0,No suspicious behaviour detected,Normal,Low,New
+176,employee3,10,1,6,1,4,Normal,0,No suspicious behaviour detected,Normal,Low,New
+177,admin,18,0,9,0,5,Normal,0,No suspicious behaviour detected,Normal,Low,New
+178,employee2,8,0,1,0,2,Normal,0,No suspicious behaviour detected,Normal,Low,New
+179,analyst,13,1,7,0,1,Normal,0,No suspicious behaviour detected,Normal,Low,New
+180,employee2,13,0,2,0,7,Normal,0,No suspicious behaviour detected,Normal,Low,New
+181,employee2,10,1,3,0,4,Normal,0,No suspicious behaviour detected,Normal,Low,New
+182,analyst,10,0,9,0,4,Normal,0,No suspicious behaviour detected,Normal,Low,New
+183,analyst,12,1,8,0,4,Normal,0,No suspicious behaviour detected,Normal,Low,New
+184,employee3,10,1,6,0,2,Normal,0,No suspicious behaviour detected,Normal,Low,New
+185,analyst,13,1,9,0,2,Normal,0,No suspicious behaviour detected,Normal,Low,New
+186,employee3,14,1,8,0,2,Normal,0,No suspicious behaviour detected,Normal,Low,New
+187,analyst,8,1,3,0,1,Normal,0,No suspicious behaviour detected,Normal,Low,New
+188,employee1,15,0,1,0,4,Normal,0,No suspicious behaviour detected,Normal,Low,New
+189,analyst,3,4,58,2,18,Suspicious,100,"Unusual login time, Multiple failed login attempts, Excessive file access, Unusual privilege escalation, Unusual network connections",Suspicious,High,New
+190,admin,15,0,2,0,4,Normal,0,No suspicious behaviour detected,Normal,Low,New
+191,employee2,2,7,34,2,37,Suspicious,100,"Unusual login time, Multiple failed login attempts, Excessive file access, Unusual privilege escalation, Unusual network connections",Suspicious,High,New
+192,analyst,16,0,2,0,6,Normal,0,No suspicious behaviour detected,Normal,Low,New
+193,employee3,14,1,8,0,6,Normal,0,No suspicious behaviour detected,Normal,Low,New
+194,analyst,11,0,2,0,7,Normal,0,No suspicious behaviour detected,Normal,Low,New
+195,employee3,8,0,7,0,6,Normal,0,No suspicious behaviour detected,Normal,Low,New
+196,analyst,12,1,2,0,7,Normal,0,No suspicious behaviour detected,Normal,Low,New
+197,employee1,9,1,9,0,2,Normal,0,No suspicious behaviour detected,Normal,Low,New
+198,analyst,17,1,5,0,7,Normal,0,No suspicious behaviour detected,Normal,Low,New
+199,employee1,18,0,6,0,3,Normal,0,No suspicious behaviour detected,Normal,Low,New
+200,employee3,8,0,3,0,4,Normal,0,No suspicious behaviour detected,Normal,Low,New
+201,employee2,8,1,2,0,7,Normal,0,No suspicious behaviour detected,Normal,Low,New
+202,employee3,12,1,1,0,4,Normal,0,No suspicious behaviour detected,Normal,Low,New
+203,employee2,13,1,3,0,5,Normal,0,No suspicious behaviour detected,Normal,Low,New
+204,employee3,13,0,1,0,7,Normal,0,No suspicious behaviour detected,Normal,Low,New
+205,employee3,8,1,6,0,5,Normal,0,No suspicious behaviour detected,Normal,Low,New
+206,analyst,9,0,8,1,4,Normal,0,No suspicious behaviour detected,Normal,Low,New
+207,employee2,15,1,4,0,5,Normal,0,No suspicious behaviour detected,Normal,Low,New
+208,analyst,3,8,47,2,34,Suspicious,100,"Unusual login time, Multiple failed login attempts, Excessive file access, Unusual privilege escalation, Unusual network connections",Suspicious,High,New
+209,analyst,14,1,9,0,7,Normal,0,No suspicious behaviour detected,Normal,Low,New
+210,employee3,17,0,4,0,1,Normal,0,No suspicious behaviour detected,Normal,Low,New
+211,employee2,14,1,4,0,2,Normal,0,No suspicious behaviour detected,Normal,Low,New
+212,employee1,16,0,4,0,2,Normal,0,No suspicious behaviour detected,Normal,Low,New
+213,employee3,4,11,33,2,21,Suspicious,100,"Unusual login time, Multiple failed login attempts, Excessive file access, Unusual privilege escalation, Unusual network connections",Suspicious,High,New
+214,employee3,15,1,2,1,4,Normal,0,No suspicious behaviour detected,Normal,Low,New
+215,admin,18,0,9,0,3,Normal,0,No suspicious behaviour detected,Normal,Low,New
+216,employee2,13,1,3,0,6,Normal,0,No suspicious behaviour detected,Normal,Low,New
+217,employee3,11,0,3,0,1,Normal,0,No suspicious behaviour detected,Normal,Low,New
+218,employee2,9,1,6,0,5,Normal,0,No suspicious behaviour detected,Normal,Low,New
+219,employee2,1,6,21,2,31,Suspicious,100,"Unusual login time, Multiple failed login attempts, Excessive file access, Unusual privilege escalation, Unusual network connections",Suspicious,High,New
+220,employee2,17,0,4,0,7,Normal,0,No suspicious behaviour detected,Normal,Low,New
+221,employee1,14,1,1,0,1,Normal,0,No suspicious behaviour detected,Normal,Low,New
+222,admin,14,1,3,0,1,Normal,0,No suspicious behaviour detected,Normal,Low,New
+223,employee2,1,7,31,2,18,Suspicious,100,"Unusual login time, Multiple failed login attempts, Excessive file access, Unusual privilege escalation, Unusual network connections",Suspicious,High,New
+224,analyst,8,1,1,0,5,Normal,0,No suspicious behaviour detected,Normal,Low,New
+225,analyst,9,0,9,0,7,Normal,0,No suspicious behaviour detected,Normal,Low,New
+226,analyst,9,1,6,0,4,Normal,0,No suspicious behaviour detected,Normal,Low,New
+227,admin,18,0,4,0,6,Normal,0,No suspicious behaviour detected,Normal,Low,New
+228,analyst,10,1,7,0,2,Normal,0,No suspicious behaviour detected,Normal,Low,New
+229,employee3,4,5,26,2,16,Suspicious,100,"Unusual login time, Multiple failed login attempts, Excessive file access, Unusual privilege escalation, Unusual network connections",Suspicious,High,New
+230,employee2,17,1,2,0,3,Normal,0,No suspicious behaviour detected,Normal,Low,New
+231,employee3,16,1,9,0,2,Normal,0,No suspicious behaviour detected,Normal,Low,New
+232,employee2,23,7,57,2,27,Suspicious,100,"Unusual login time, Multiple failed login attempts, Excessive file access, Unusual privilege escalation, Unusual network connections",Suspicious,High,New
+233,admin,12,0,4,1,3,Normal,0,No suspicious behaviour detected,Normal,Low,New
+234,admin,16,1,5,0,3,Normal,0,No suspicious behaviour detected,Normal,Low,New
+235,employee3,9,1,6,0,1,Normal,0,No suspicious behaviour detected,Normal,Low,New
+236,employee3,17,1,6,0,4,Normal,0,No suspicious behaviour detected,Normal,Low,New
+237,employee1,18,0,2,1,3,Normal,0,No suspicious behaviour detected,Normal,Low,New
+238,admin,2,9,57,2,37,Suspicious,100,"Unusual login time, Multiple failed login attempts, Excessive file access, Unusual privilege escalation, Unusual network connections",Suspicious,High,New
+239,admin,14,0,2,0,1,Normal,0,No suspicious behaviour detected,Normal,Low,New
+240,employee1,13,1,5,0,1,Normal,0,No suspicious behaviour detected,Normal,Low,New
+241,analyst,8,1,6,0,1,Normal,0,No suspicious behaviour detected,Normal,Low,New
+242,analyst,16,0,9,0,3,Normal,0,No suspicious behaviour detected,Normal,Low,New
+243,employee3,8,1,7,0,1,Normal,0,No suspicious behaviour detected,Normal,Low,New
+244,employee1,13,1,7,1,5,Normal,0,No suspicious behaviour detected,Normal,Low,New
+245,employee3,9,0,5,0,1,Normal,0,No suspicious behaviour detected,Normal,Low,New
+246,admin,16,0,5,0,4,Normal,0,No suspicious behaviour detected,Normal,Low,New
+247,employee3,11,1,8,0,2,Normal,0,No suspicious behaviour detected,Normal,Low,New
+248,admin,18,1,8,0,3,Normal,0,No suspicious behaviour detected,Normal,Low,New
+249,admin,15,1,3,1,4,Normal,0,No suspicious behaviour detected,Normal,Low,New
+250,employee1,17,1,2,0,4,Normal,0,No suspicious behaviour detected,Normal,Low,New
+251,employee3,17,0,2,0,5,Normal,0,No suspicious behaviour detected,Normal,Low,New
+252,analyst,4,5,51,2,24,Suspicious,100,"Unusual login time, Multiple failed login attempts, Excessive file access, Unusual privilege escalation, Unusual network connections",Suspicious,High,New
+253,employee3,12,1,6,0,2,Normal,0,No suspicious behaviour detected,Normal,Low,New
+254,employee3,16,1,4,0,5,Normal,0,No suspicious behaviour detected,Normal,Low,New
+255,admin,14,1,3,0,4,Normal,0,No suspicious behaviour detected,Normal,Low,New
+256,admin,10,0,5,0,1,Normal,0,No suspicious behaviour detected,Normal,Low,New
+257,analyst,8,0,7,1,5,Normal,0,No suspicious behaviour detected,Normal,Low,New
+258,employee3,1,4,55,2,38,Suspicious,100,"Unusual login time, Multiple failed login attempts, Excessive file access, Unusual privilege escalation, Unusual network connections",Suspicious,High,New
+259,analyst,3,11,44,2,15,Suspicious,100,"Unusual login time, Multiple failed login attempts, Excessive file access, Unusual privilege escalation, Unusual network connections",Suspicious,High,New
+260,admin,10,0,3,0,1,Normal,0,No suspicious behaviour detected,Normal,Low,New
+261,admin,18,0,3,0,5,Normal,0,No suspicious behaviour detected,Normal,Low,New
+262,employee2,15,1,1,0,3,Normal,0,No suspicious behaviour detected,Normal,Low,New
+263,admin,13,1,1,1,1,Normal,0,No suspicious behaviour detected,Normal,Low,New
+264,analyst,14,0,1,0,7,Normal,0,No suspicious behaviour detected,Normal,Low,New
+265,employee3,9,1,5,0,5,Normal,0,No suspicious behaviour detected,Normal,Low,New
+266,employee1,15,1,9,0,4,Normal,0,No suspicious behaviour detected,Normal,Low,New
+267,admin,12,1,3,0,4,Normal,0,No suspicious behaviour detected,Normal,Low,New
+268,employee2,12,0,2,0,2,Normal,0,No suspicious behaviour detected,Normal,Low,New
+269,analyst,17,0,5,0,4,Normal,0,No suspicious behaviour detected,Normal,Low,New
+270,employee2,9,0,8,0,7,Normal,0,No suspicious behaviour detected,Normal,Low,New
+271,employee2,18,1,8,0,6,Normal,0,No suspicious behaviour detected,Normal,Low,New
+272,admin,8,0,4,0,1,Normal,0,No suspicious behaviour detected,Normal,Low,New
+273,analyst,2,11,20,2,25,Suspicious,100,"Unusual login time, Multiple failed login attempts, Excessive file access, Unusual privilege escalation, Unusual network connections",Suspicious,High,New
+274,employee1,9,1,5,0,5,Normal,0,No suspicious behaviour detected,Normal,Low,New
+275,employee3,8,0,3,0,7,Normal,0,No suspicious behaviour detected,Normal,Low,New
+276,employee1,11,1,2,0,2,Normal,0,No suspicious behaviour detected,Normal,Low,New
+277,employee2,11,1,5,0,6,Normal,0,No suspicious behaviour detected,Normal,Low,New
+278,employee3,13,1,8,0,1,Normal,0,No suspicious behaviour detected,Normal,Low,New
+279,admin,17,1,2,0,7,Normal,0,No suspicious behaviour detected,Normal,Low,New
+280,employee3,14,0,7,0,1,Normal,0,No suspicious behaviour detected,Normal,Low,New
+281,employee2,12,0,7,0,1,Normal,0,No suspicious behaviour detected,Normal,Low,New
+282,employee3,18,0,8,0,1,Normal,0,No suspicious behaviour detected,Normal,Low,New
+283,employee3,13,0,8,0,3,Normal,0,No suspicious behaviour detected,Normal,Low,New
+284,employee1,13,1,3,0,4,Normal,0,No suspicious behaviour detected,Normal,Low,New
+285,employee1,13,0,1,0,4,Normal,0,No suspicious behaviour detected,Normal,Low,New
+286,employee2,14,1,9,0,2,Normal,0,No suspicious behaviour detected,Normal,Low,New
+287,employee3,9,1,1,1,7,Normal,0,No suspicious behaviour detected,Normal,Low,New
+288,employee1,15,0,4,0,7,Normal,0,No suspicious behaviour detected,Normal,Low,New
+289,employee2,9,0,7,0,7,Normal,0,No suspicious behaviour detected,Normal,Low,New
+290,employee1,2,6,25,2,28,Suspicious,100,"Unusual login time, Multiple failed login attempts, Excessive file access, Unusual privilege escalation, Unusual network connections",Suspicious,High,New
+291,employee3,1,5,45,2,37,Suspicious,100,"Unusual login time, Multiple failed login attempts, Excessive file access, Unusual privilege escalation, Unusual network connections",Suspicious,High,New
+292,employee3,13,0,7,0,2,Normal,0,No suspicious behaviour detected,Normal,Low,New
+293,analyst,8,1,3,0,6,Normal,0,No suspicious behaviour detected,Normal,Low,New
+294,employee1,8,0,2,0,6,Normal,0,No suspicious behaviour detected,Normal,Low,New
+295,admin,15,1,3,1,5,Normal,0,No suspicious behaviour detected,Normal,Low,New
+296,admin,11,0,5,0,1,Normal,0,No suspicious behaviour detected,Normal,Low,New
+297,admin,3,7,42,2,25,Suspicious,100,"Unusual login time, Multiple failed login attempts, Excessive file access, Unusual privilege escalation, Unusual network connections",Suspicious,High,New
+298,employee3,16,0,4,0,7,Normal,0,No suspicious behaviour detected,Normal,Low,New
+299,analyst,9,1,7,0,7,Normal,0,No suspicious behaviour detected,Normal,Low,New
+300,employee1,9,0,8,0,1,Normal,0,No suspicious behaviour detected,Normal,Low,New
+301,employee1,10,1,6,0,7,Normal,0,No suspicious behaviour detected,Normal,Low,New
+302,analyst,12,1,1,0,5,Normal,0,No suspicious behaviour detected,Normal,Low,New
+303,employee1,17,0,9,0,6,Normal,0,No suspicious behaviour detected,Normal,Low,New
+304,employee2,18,1,9,0,1,Normal,0,No suspicious behaviour detected,Normal,Low,New
+305,employee3,15,0,8,0,1,Normal,0,No suspicious behaviour detected,Normal,Low,New
+306,employee2,1,5,46,2,25,Suspicious,100,"Unusual login time, Multiple failed login attempts, Excessive file access, Unusual privilege escalation, Unusual network connections",Suspicious,High,New
+307,employee3,12,1,5,0,4,Normal,0,No suspicious behaviour detected,Normal,Low,New
+308,analyst,10,0,9,0,1,Normal,0,No suspicious behaviour detected,Normal,Low,New
+309,employee1,4,8,46,2,39,Suspicious,100,"Unusual login time, Multiple failed login attempts, Excessive file access, Unusual privilege escalation, Unusual network connections",Suspicious,High,New
+310,analyst,15,1,5,0,1,Normal,0,No suspicious behaviour detected,Normal,Low,New
+311,analyst,11,0,2,0,1,Normal,0,No suspicious behaviour detected,Normal,Low,New
+312,admin,13,1,5,0,2,Normal,0,No suspicious behaviour detected,Normal,Low,New
+313,employee3,8,0,9,0,2,Normal,0,No suspicious behaviour detected,Normal,Low,New
+314,employee1,18,0,2,0,6,Normal,0,No suspicious behaviour detected,Normal,Low,New
+315,admin,12,1,2,0,7,Normal,0,No suspicious behaviour detected,Normal,Low,New
+316,analyst,16,0,9,0,5,Normal,0,No suspicious behaviour detected,Normal,Low,New
+317,employee2,9,0,5,0,2,Normal,0,No suspicious behaviour detected,Normal,Low,New
+318,analyst,9,0,6,0,1,Normal,0,No suspicious behaviour detected,Normal,Low,New
+319,employee1,8,0,7,0,2,Normal,0,No suspicious behaviour detected,Normal,Low,New
+320,employee2,17,0,5,0,3,Normal,0,No suspicious behaviour detected,Normal,Low,New
+321,employee2,8,0,8,1,4,Normal,0,No suspicious behaviour detected,Normal,Low,New
+322,analyst,11,1,6,0,4,Normal,0,No suspicious behaviour detected,Normal,Low,New
+323,admin,10,1,8,0,6,Normal,0,No suspicious behaviour detected,Normal,Low,New
+324,analyst,17,1,4,0,1,Normal,0,No suspicious behaviour detected,Normal,Low,New
+325,employee1,11,1,8,0,3,Normal,0,No suspicious behaviour detected,Normal,Low,New
+326,admin,10,1,4,0,5,Normal,0,No suspicious behaviour detected,Normal,Low,New
+327,admin,17,0,8,1,4,Normal,0,No suspicious behaviour detected,Normal,Low,New
+328,admin,11,1,1,0,7,Normal,0,No suspicious behaviour detected,Normal,Low,New
+329,analyst,12,0,5,0,3,Normal,0,No suspicious behaviour detected,Normal,Low,New
+330,analyst,16,1,2,0,2,Normal,0,No suspicious behaviour detected,Normal,Low,New
+331,employee2,15,0,1,1,6,Normal,0,No suspicious behaviour detected,Normal,Low,New
+332,admin,15,1,8,0,7,Normal,0,No suspicious behaviour detected,Normal,Low,New
+333,admin,18,1,3,0,2,Normal,0,No suspicious behaviour detected,Normal,Low,New
+334,employee2,14,0,4,0,6,Normal,0,No suspicious behaviour detected,Normal,Low,New
+335,employee3,18,1,5,0,3,Normal,0,No suspicious behaviour detected,Normal,Low,New
+336,employee2,9,0,2,1,7,Normal,0,No suspicious behaviour detected,Normal,Low,New
+337,analyst,17,0,6,0,4,Normal,0,No suspicious behaviour detected,Normal,Low,New
+338,employee1,10,1,1,0,7,Normal,0,No suspicious behaviour detected,Normal,Low,New
+339,employee2,18,1,3,1,4,Normal,0,No suspicious behaviour detected,Normal,Low,New
+340,employee1,9,1,3,0,4,Normal,0,No suspicious behaviour detected,Normal,Low,New
+341,employee1,12,0,9,0,2,Normal,0,No suspicious behaviour detected,Normal,Low,New
+342,employee1,13,0,1,0,1,Normal,0,No suspicious behaviour detected,Normal,Low,New
+343,employee2,12,1,8,0,7,Normal,0,No suspicious behaviour detected,Normal,Low,New
+344,admin,15,0,7,0,1,Normal,0,No suspicious behaviour detected,Normal,Low,New
+345,employee1,12,1,1,1,1,Normal,0,No suspicious behaviour detected,Normal,Low,New
+346,employee2,8,1,8,0,2,Normal,0,No suspicious behaviour detected,Normal,Low,New
+347,employee3,12,0,5,0,3,Normal,0,No suspicious behaviour detected,Normal,Low,New
+348,employee2,3,11,20,2,29,Suspicious,100,"Unusual login time, Multiple failed login attempts, Excessive file access, Unusual privilege escalation, Unusual network connections",Suspicious,High,New
+349,employee3,10,1,5,0,4,Normal,0,No suspicious behaviour detected,Normal,Low,New
+350,employee1,4,7,25,2,22,Suspicious,100,"Unusual login time, Multiple failed login attempts, Excessive file access, Unusual privilege escalation, Unusual network connections",Suspicious,High,New
+351,employee1,14,1,2,1,3,Normal,0,No suspicious behaviour detected,Normal,Low,New
+352,admin,15,1,2,0,3,Normal,0,No suspicious behaviour detected,Normal,Low,New
+353,employee3,14,1,5,0,4,Normal,0,No suspicious behaviour detected,Normal,Low,New
+354,admin,15,0,5,0,5,Normal,0,No suspicious behaviour detected,Normal,Low,New
+355,employee1,18,1,6,0,4,Normal,0,No suspicious behaviour detected,Normal,Low,New
+356,analyst,17,0,3,0,2,Normal,0,No suspicious behaviour detected,Normal,Low,New
+357,employee1,11,1,7,0,3,Normal,0,No suspicious behaviour detected,Normal,Low,New
+358,admin,9,0,9,0,3,Normal,0,No suspicious behaviour detected,Normal,Low,New
+359,admin,18,1,2,0,6,Normal,0,No suspicious behaviour detected,Normal,Low,New
+360,admin,12,1,4,0,2,Normal,0,No suspicious behaviour detected,Normal,Low,New
+361,employee3,11,1,6,0,6,Normal,0,No suspicious behaviour detected,Normal,Low,New
+362,employee1,9,1,2,0,1,Normal,0,No suspicious behaviour detected,Normal,Low,New
+363,employee2,8,1,4,0,1,Normal,0,No suspicious behaviour detected,Normal,Low,New
+364,analyst,17,1,8,0,1,Normal,0,No suspicious behaviour detected,Normal,Low,New
+365,employee2,14,0,6,1,7,Normal,0,No suspicious behaviour detected,Normal,Low,New
+366,employee1,10,0,5,0,1,Normal,0,No suspicious behaviour detected,Normal,Low,New
+367,employee3,8,0,8,0,6,Normal,0,No suspicious behaviour detected,Normal,Low,New
+368,admin,14,0,8,0,7,Normal,0,No suspicious behaviour detected,Normal,Low,New
+369,analyst,13,1,5,0,2,Normal,0,No suspicious behaviour detected,Normal,Low,New
+370,analyst,18,0,1,0,3,Normal,0,No suspicious behaviour detected,Normal,Low,New
+371,analyst,11,0,8,0,7,Normal,0,No suspicious behaviour detected,Normal,Low,New
+372,analyst,16,1,8,0,2,Normal,0,No suspicious behaviour detected,Normal,Low,New
+373,admin,14,0,7,0,7,Normal,0,No suspicious behaviour detected,Normal,Low,New
+374,employee1,18,1,8,0,1,Normal,0,No suspicious behaviour detected,Normal,Low,New
+375,employee1,11,0,2,0,2,Normal,0,No suspicious behaviour detected,Normal,Low,New
+376,analyst,18,0,9,0,6,Normal,0,No suspicious behaviour detected,Normal,Low,New
+377,employee2,16,0,2,0,4,Normal,0,No suspicious behaviour detected,Normal,Low,New
+378,employee1,12,0,4,0,6,Normal,0,No suspicious behaviour detected,Normal,Low,New
+379,admin,4,11,56,2,36,Suspicious,100,"Unusual login time, Multiple failed login attempts, Excessive file access, Unusual privilege escalation, Unusual network connections",Suspicious,High,New
+380,employee1,12,0,4,0,1,Normal,0,No suspicious behaviour detected,Normal,Low,New
+381,employee3,18,1,5,0,3,Normal,0,No suspicious behaviour detected,Normal,Low,New
+382,employee2,15,0,6,0,1,Normal,0,No suspicious behaviour detected,Normal,Low,New
+383,employee1,16,0,5,0,1,Normal,0,No suspicious behaviour detected,Normal,Low,New
+384,admin,17,1,9,0,4,Normal,0,No suspicious behaviour detected,Normal,Low,New
+385,employee3,10,0,1,0,2,Normal,0,No suspicious behaviour detected,Normal,Low,New
+386,analyst,3,7,37,2,20,Suspicious,100,"Unusual login time, Multiple failed login attempts, Excessive file access, Unusual privilege escalation, Unusual network connections",Suspicious,High,New
+387,admin,13,0,8,0,7,Normal,0,No suspicious behaviour detected,Normal,Low,New
+388,employee3,17,0,6,0,1,Normal,0,No suspicious behaviour detected,Normal,Low,New
+389,employee3,3,6,28,2,27,Suspicious,100,"Unusual login time, Multiple failed login attempts, Excessive file access, Unusual privilege escalation, Unusual network connections",Suspicious,High,New
+390,employee1,8,0,2,0,1,Normal,0,No suspicious behaviour detected,Normal,Low,New
+391,admin,11,0,1,0,6,Normal,0,No suspicious behaviour detected,Normal,Low,New
+392,employee3,15,1,8,0,4,Normal,0,No suspicious behaviour detected,Normal,Low,New
+393,admin,11,0,9,0,3,Normal,0,No suspicious behaviour detected,Normal,Low,New
+394,employee3,9,1,5,1,3,Normal,0,No suspicious behaviour detected,Normal,Low,New
+395,employee3,18,0,8,0,7,Normal,0,No suspicious behaviour detected,Normal,Low,New
+396,employee1,17,0,8,0,3,Normal,0,No suspicious behaviour detected,Normal,Low,New
+397,admin,9,0,2,0,4,Normal,0,No suspicious behaviour detected,Normal,Low,New
+398,employee1,10,0,8,0,6,Normal,0,No suspicious behaviour detected,Normal,Low,New
+399,analyst,15,1,2,0,1,Normal,0,No suspicious behaviour detected,Normal,Low,New
+400,analyst,2,8,27,2,37,Suspicious,100,"Unusual login time, Multiple failed login attempts, Excessive file access, Unusual privilege escalation, Unusual network connections",Suspicious,High,New
+401,admin,16,0,9,0,1,Normal,0,No suspicious behaviour detected,Normal,Low,New
+402,employee2,18,1,8,0,4,Normal,0,No suspicious behaviour detected,Normal,Low,New
+403,admin,9,0,8,1,3,Normal,0,No suspicious behaviour detected,Normal,Low,New
+404,employee3,10,0,7,0,6,Normal,0,No suspicious behaviour detected,Normal,Low,New
+405,admin,9,0,4,0,3,Normal,0,No suspicious behaviour detected,Normal,Low,New
+406,employee1,13,1,6,0,2,Normal,0,No suspicious behaviour detected,Normal,Low,New
+407,employee3,0,8,42,2,28,Suspicious,100,"Unusual login time, Multiple failed login attempts, Excessive file access, Unusual privilege escalation, Unusual network connections",Suspicious,High,New
+408,analyst,13,0,2,0,4,Normal,0,No suspicious behaviour detected,Normal,Low,New
+409,employee3,12,1,3,0,5,Normal,0,No suspicious behaviour detected,Normal,Low,New
+410,employee2,13,1,9,0,4,Normal,0,No suspicious behaviour detected,Normal,Low,New
+411,admin,16,0,8,0,3,Normal,0,No suspicious behaviour detected,Normal,Low,New
+412,employee1,23,5,31,2,36,Suspicious,100,"Unusual login time, Multiple failed login attempts, Excessive file access, Unusual privilege escalation, Unusual network connections",Suspicious,High,New
+413,employee2,10,1,5,0,7,Normal,0,No suspicious behaviour detected,Normal,Low,New
+414,employee1,13,0,6,0,3,Normal,0,No suspicious behaviour detected,Normal,Low,New
+415,employee2,18,0,1,0,2,Normal,0,No suspicious behaviour detected,Normal,Low,New
+416,admin,14,0,6,0,1,Normal,0,No suspicious behaviour detected,Normal,Low,New
+417,admin,12,1,4,0,3,Normal,0,No suspicious behaviour detected,Normal,Low,New
+418,admin,10,1,9,0,2,Normal,0,No suspicious behaviour detected,Normal,Low,New
+419,analyst,8,1,3,0,5,Normal,0,No suspicious behaviour detected,Normal,Low,New
+420,employee3,15,0,4,0,3,Normal,0,No suspicious behaviour detected,Normal,Low,New
+421,employee2,16,0,3,0,7,Normal,0,No suspicious behaviour detected,Normal,Low,New
+422,analyst,11,1,1,0,7,Normal,0,No suspicious behaviour detected,Normal,Low,New
+423,admin,12,1,3,0,5,Normal,0,No suspicious behaviour detected,Normal,Low,New
+424,admin,11,0,2,0,7,Normal,0,No suspicious behaviour detected,Normal,Low,New
+425,analyst,11,1,7,0,1,Normal,0,No suspicious behaviour detected,Normal,Low,New
+426,analyst,9,0,5,0,1,Normal,0,No suspicious behaviour detected,Normal,Low,New
+427,employee3,16,0,9,0,5,Normal,0,No suspicious behaviour detected,Normal,Low,New
+428,admin,17,0,6,0,6,Normal,0,No suspicious behaviour detected,Normal,Low,New
+429,admin,17,1,4,0,2,Normal,0,No suspicious behaviour detected,Normal,Low,New
+430,employee2,16,0,3,0,2,Normal,0,No suspicious behaviour detected,Normal,Low,New
+431,admin,11,1,6,0,6,Normal,0,No suspicious behaviour detected,Normal,Low,New
+432,employee3,15,1,4,1,5,Normal,0,No suspicious behaviour detected,Normal,Low,New
+433,employee3,17,1,7,0,4,Normal,0,No suspicious behaviour detected,Normal,Low,New
+434,admin,14,1,1,0,6,Normal,0,No suspicious behaviour detected,Normal,Low,New
+435,admin,14,0,4,0,6,Normal,0,No suspicious behaviour detected,Normal,Low,New
+436,admin,16,0,1,0,1,Normal,0,No suspicious behaviour detected,Normal,Low,New
+437,employee2,18,0,6,0,7,Normal,0,No suspicious behaviour detected,Normal,Low,New
+438,admin,8,0,3,0,7,Normal,0,No suspicious behaviour detected,Normal,Low,New
+439,analyst,18,1,6,0,3,Normal,0,No suspicious behaviour detected,Normal,Low,New
+440,employee2,10,0,5,0,4,Normal,0,No suspicious behaviour detected,Normal,Low,New
+441,admin,9,0,9,1,7,Normal,0,No suspicious behaviour detected,Normal,Low,New
+442,admin,14,1,6,0,2,Normal,0,No suspicious behaviour detected,Normal,Low,New
+443,analyst,2,7,46,2,28,Suspicious,100,"Unusual login time, Multiple failed login attempts, Excessive file access, Unusual privilege escalation, Unusual network connections",Suspicious,High,New
+444,employee3,13,0,4,0,5,Normal,0,No suspicious behaviour detected,Normal,Low,New
+445,employee3,12,0,9,0,2,Normal,0,No suspicious behaviour detected,Normal,Low,New
+446,analyst,17,1,6,0,7,Normal,0,No suspicious behaviour detected,Normal,Low,New
+447,analyst,10,1,4,0,7,Normal,0,No suspicious behaviour detected,Normal,Low,New
+448,admin,13,0,8,0,3,Normal,0,No suspicious behaviour detected,Normal,Low,New
+449,employee3,14,1,1,0,2,Normal,0,No suspicious behaviour detected,Normal,Low,New
+450,employee2,10,1,4,0,4,Normal,0,No suspicious behaviour detected,Normal,Low,New
+451,employee2,9,1,4,0,7,Normal,0,No suspicious behaviour detected,Normal,Low,New
+452,admin,9,0,9,0,2,Normal,0,No suspicious behaviour detected,Normal,Low,New
+453,employee1,15,0,9,0,5,Normal,0,No suspicious behaviour detected,Normal,Low,New
+454,admin,8,0,7,0,5,Normal,0,No suspicious behaviour detected,Normal,Low,New
+455,employee3,17,0,8,1,3,Normal,0,No suspicious behaviour detected,Normal,Low,New
+456,employee2,9,0,1,0,5,Normal,0,No suspicious behaviour detected,Normal,Low,New
+457,analyst,17,1,4,0,5,Normal,0,No suspicious behaviour detected,Normal,Low,New
+458,admin,15,0,5,0,3,Normal,0,No suspicious behaviour detected,Normal,Low,New
+459,admin,11,0,1,0,6,Normal,0,No suspicious behaviour detected,Normal,Low,New
+460,employee2,17,1,7,0,4,Normal,0,No suspicious behaviour detected,Normal,Low,New
+461,analyst,14,1,6,0,2,Normal,0,No suspicious behaviour detected,Normal,Low,New
+462,employee1,8,0,5,0,1,Normal,0,No suspicious behaviour detected,Normal,Low,New
+463,employee3,15,1,6,0,5,Normal,0,No suspicious behaviour detected,Normal,Low,New
+464,employee3,0,6,35,2,28,Suspicious,100,"Unusual login time, Multiple failed login attempts, Excessive file access, Unusual privilege escalation, Unusual network connections",Suspicious,High,New
+465,analyst,12,1,5,1,4,Normal,0,No suspicious behaviour detected,Normal,Low,New
+466,analyst,11,0,3,1,2,Normal,0,No suspicious behaviour detected,Normal,Low,New
+467,employee2,18,0,1,0,3,Normal,0,No suspicious behaviour detected,Normal,Low,New
+468,employee2,12,0,1,0,7,Normal,0,No suspicious behaviour detected,Normal,Low,New
+469,employee1,9,0,6,0,7,Normal,0,No suspicious behaviour detected,Normal,Low,New
+470,employee1,8,1,5,0,6,Normal,0,No suspicious behaviour detected,Normal,Low,New
+471,admin,15,1,7,0,3,Normal,0,No suspicious behaviour detected,Normal,Low,New
+472,admin,14,0,5,0,7,Normal,0,No suspicious behaviour detected,Normal,Low,New
+473,employee2,23,10,52,2,35,Suspicious,100,"Unusual login time, Multiple failed login attempts, Excessive file access, Unusual privilege escalation, Unusual network connections",Suspicious,High,New
+474,admin,10,1,9,0,6,Normal,0,No suspicious behaviour detected,Normal,Low,New
+475,analyst,12,0,7,0,5,Normal,0,No suspicious behaviour detected,Normal,Low,New
+476,employee3,23,5,44,2,37,Suspicious,100,"Unusual login time, Multiple failed login attempts, Excessive file access, Unusual privilege escalation, Unusual network connections",Suspicious,High,New
+477,employee3,4,7,41,2,28,Suspicious,100,"Unusual login time, Multiple failed login attempts, Excessive file access, Unusual privilege escalation, Unusual network connections",Suspicious,High,New
+478,admin,4,9,44,2,36,Suspicious,100,"Unusual login time, Multiple failed login attempts, Excessive file access, Unusual privilege escalation, Unusual network connections",Suspicious,High,New
+479,employee3,8,1,6,0,3,Normal,0,No suspicious behaviour detected,Normal,Low,New
+480,employee3,16,1,7,0,2,Normal,0,No suspicious behaviour detected,Normal,Low,New
+481,admin,9,1,7,0,4,Normal,0,No suspicious behaviour detected,Normal,Low,New
+482,employee1,16,1,1,0,7,Normal,0,No suspicious behaviour detected,Normal,Low,New
+483,admin,15,0,2,0,2,Normal,0,No suspicious behaviour detected,Normal,Low,New
+484,admin,17,1,8,0,3,Normal,0,No suspicious behaviour detected,Normal,Low,New
+485,admin,14,1,9,0,4,Normal,0,No suspicious behaviour detected,Normal,Low,New
+486,employee2,16,0,9,0,6,Normal,0,No suspicious behaviour detected,Normal,Low,New
+487,employee2,8,1,4,0,4,Normal,0,No suspicious behaviour detected,Normal,Low,New
+488,admin,12,0,1,0,7,Normal,0,No suspicious behaviour detected,Normal,Low,New
+489,admin,8,0,5,0,1,Normal,0,No suspicious behaviour detected,Normal,Low,New
+490,analyst,11,1,1,0,1,Normal,0,No suspicious behaviour detected,Normal,Low,New
+491,employee1,17,0,7,0,1,Normal,0,No suspicious behaviour detected,Normal,Low,New
+492,employee1,10,1,6,0,5,Normal,0,No suspicious behaviour detected,Normal,Low,New
+493,analyst,13,1,5,0,7,Normal,0,No suspicious behaviour detected,Normal,Low,New
+494,analyst,9,1,4,0,5,Normal,0,No suspicious behaviour detected,Normal,Low,New
+495,employee3,17,1,6,0,5,Normal,0,No suspicious behaviour detected,Normal,Low,New
+496,admin,13,0,3,0,5,Normal,0,No suspicious behaviour detected,Normal,Low,New
+497,employee3,12,1,8,0,6,Normal,0,No suspicious behaviour detected,Normal,Low,New
+498,employee1,10,0,8,0,6,Normal,0,No suspicious behaviour detected,Normal,Low,New
+499,employee3,8,0,3,0,6,Normal,0,No suspicious behaviour detected,Normal,Low,New
+500,employee1,11,0,6,0,3,Normal,0,No suspicious behaviour detected,Normal,Low,New
+501,employee1,16,0,8,0,5,Normal,0,No suspicious behaviour detected,Normal,Low,New
+502,admin,12,0,4,0,1,Normal,0,No suspicious behaviour detected,Normal,Low,New
+503,admin,16,0,2,0,5,Normal,0,No suspicious behaviour detected,Normal,Low,New
+504,analyst,23,4,39,2,32,Suspicious,100,"Unusual login time, Multiple failed login attempts, Excessive file access, Unusual privilege escalation, Unusual network connections",Suspicious,High,New
+505,analyst,16,1,2,0,1,Normal,0,No suspicious behaviour detected,Normal,Low,New
+506,admin,3,9,33,2,17,Suspicious,100,"Unusual login time, Multiple failed login attempts, Excessive file access, Unusual privilege escalation, Unusual network connections",Suspicious,High,New
+507,employee2,9,1,8,0,6,Normal,0,No suspicious behaviour detected,Normal,Low,New
+508,employee2,14,1,1,0,7,Normal,0,No suspicious behaviour detected,Normal,Low,New
+509,admin,3,9,23,2,25,Suspicious,100,"Unusual login time, Multiple failed login attempts, Excessive file access, Unusual privilege escalation, Unusual network connections",Suspicious,High,New
+510,employee3,10,1,7,0,1,Normal,0,No suspicious behaviour detected,Normal,Low,New
+511,employee1,17,1,5,0,7,Normal,0,No suspicious behaviour detected,Normal,Low,New
+512,employee1,11,1,6,0,4,Normal,0,No suspicious behaviour detected,Normal,Low,New
+513,employee2,14,1,2,0,3,Normal,0,No suspicious behaviour detected,Normal,Low,New
+514,admin,14,0,8,0,1,Normal,0,No suspicious behaviour detected,Normal,Low,New
+515,employee1,9,1,6,0,1,Normal,0,No suspicious behaviour detected,Normal,Low,New
+516,employee2,15,1,7,1,6,Normal,0,No suspicious behaviour detected,Normal,Low,New
+517,analyst,8,0,5,0,6,Normal,0,No suspicious behaviour detected,Normal,Low,New
+518,admin,12,0,4,0,2,Normal,0,No suspicious behaviour detected,Normal,Low,New
+519,employee3,4,7,37,2,17,Suspicious,100,"Unusual login time, Multiple failed login attempts, Excessive file access, Unusual privilege escalation, Unusual network connections",Suspicious,High,New
+520,admin,12,1,4,0,3,Normal,0,No suspicious behaviour detected,Normal,Low,New
+521,employee2,13,0,7,0,1,Normal,0,No suspicious behaviour detected,Normal,Low,New
+522,employee3,11,1,1,0,4,Normal,0,No suspicious behaviour detected,Normal,Low,New
+523,employee3,15,0,4,0,4,Normal,0,No suspicious behaviour detected,Normal,Low,New
+524,employee3,9,1,1,1,2,Normal,0,No suspicious behaviour detected,Normal,Low,New
+525,employee2,10,0,3,0,5,Normal,0,No suspicious behaviour detected,Normal,Low,New
+526,admin,15,1,3,0,5,Normal,0,No suspicious behaviour detected,Normal,Low,New
+527,employee1,14,0,2,0,7,Normal,0,No suspicious behaviour detected,Normal,Low,New
+528,admin,9,0,1,0,2,Normal,0,No suspicious behaviour detected,Normal,Low,New
+529,analyst,13,1,9,0,4,Normal,0,No suspicious behaviour detected,Normal,Low,New
+530,employee1,12,0,7,0,3,Normal,0,No suspicious behaviour detected,Normal,Low,New
+531,employee2,18,1,9,0,1,Normal,0,No suspicious behaviour detected,Normal,Low,New
+532,admin,12,0,1,0,6,Normal,0,No suspicious behaviour detected,Normal,Low,New
+533,employee3,18,1,1,0,3,Normal,0,No suspicious behaviour detected,Normal,Low,New
+534,admin,9,0,1,0,6,Normal,0,No suspicious behaviour detected,Normal,Low,New
+535,employee3,14,1,8,0,5,Normal,0,No suspicious behaviour detected,Normal,Low,New
+536,employee1,11,0,9,1,5,Normal,0,No suspicious behaviour detected,Normal,Low,New
+537,analyst,18,0,4,0,3,Normal,0,No suspicious behaviour detected,Normal,Low,New
+538,employee3,17,1,3,0,1,Normal,0,No suspicious behaviour detected,Normal,Low,New
+539,employee1,8,0,5,0,6,Normal,0,No suspicious behaviour detected,Normal,Low,New
+540,employee1,16,0,6,0,5,Normal,0,No suspicious behaviour detected,Normal,Low,New
+541,analyst,8,0,8,0,1,Normal,0,No suspicious behaviour detected,Normal,Low,New
+542,analyst,12,0,5,0,6,Normal,0,No suspicious behaviour detected,Normal,Low,New
+543,employee1,11,1,5,0,1,Normal,0,No suspicious behaviour detected,Normal,Low,New
+544,analyst,10,0,5,0,4,Normal,0,No suspicious behaviour detected,Normal,Low,New
+545,analyst,12,1,3,0,6,Normal,0,No suspicious behaviour detected,Normal,Low,New
+546,employee2,23,6,57,2,27,Suspicious,100,"Unusual login time, Multiple failed login attempts, Excessive file access, Unusual privilege escalation, Unusual network connections",Suspicious,High,New
+547,employee2,15,1,3,0,4,Normal,0,No suspicious behaviour detected,Normal,Low,New
+548,admin,11,0,3,0,3,Normal,0,No suspicious behaviour detected,Normal,Low,New
+549,employee3,10,0,5,0,5,Normal,0,No suspicious behaviour detected,Normal,Low,New
+550,analyst,11,1,8,0,1,Normal,0,No suspicious behaviour detected,Normal,Low,New
+551,analyst,12,1,3,0,5,Normal,0,No suspicious behaviour detected,Normal,Low,New
+552,admin,18,1,7,1,7,Normal,0,No suspicious behaviour detected,Normal,Low,New
+553,employee3,10,0,4,0,6,Normal,0,No suspicious behaviour detected,Normal,Low,New
+554,analyst,17,0,3,0,5,Normal,0,No suspicious behaviour detected,Normal,Low,New
+555,employee2,16,0,2,0,4,Normal,0,No suspicious behaviour detected,Normal,Low,New
+556,employee2,2,4,35,2,16,Suspicious,100,"Unusual login time, Multiple failed login attempts, Excessive file access, Unusual privilege escalation, Unusual network connections",Suspicious,High,New
+557,employee1,11,1,7,0,6,Normal,0,No suspicious behaviour detected,Normal,Low,New
+558,employee1,11,0,3,0,7,Normal,0,No suspicious behaviour detected,Normal,Low,New
+559,employee2,8,1,1,0,3,Normal,0,No suspicious behaviour detected,Normal,Low,New
+560,employee2,9,0,7,0,6,Normal,0,No suspicious behaviour detected,Normal,Low,New
+561,employee2,8,1,8,0,6,Normal,0,No suspicious behaviour detected,Normal,Low,New
+562,analyst,4,4,26,2,29,Suspicious,100,"Unusual login time, Multiple failed login attempts, Excessive file access, Unusual privilege escalation, Unusual network connections",Suspicious,High,New
+563,employee3,14,1,7,0,6,Normal,0,No suspicious behaviour detected,Normal,Low,New
+564,employee1,10,1,2,0,6,Normal,0,No suspicious behaviour detected,Normal,Low,New
+565,employee3,18,1,1,0,1,Normal,0,No suspicious behaviour detected,Normal,Low,New
+566,admin,13,1,9,0,1,Normal,0,No suspicious behaviour detected,Normal,Low,New
+567,employee3,8,1,1,0,4,Normal,0,No suspicious behaviour detected,Normal,Low,New
+568,admin,13,1,8,0,4,Normal,0,No suspicious behaviour detected,Normal,Low,New
+569,admin,18,0,7,0,7,Normal,0,No suspicious behaviour detected,Normal,Low,New
+570,admin,4,5,57,2,34,Suspicious,100,"Unusual login time, Multiple failed login attempts, Excessive file access, Unusual privilege escalation, Unusual network connections",Suspicious,High,New
+571,employee2,11,0,6,1,6,Normal,0,No suspicious behaviour detected,Normal,Low,New
+572,employee2,10,0,2,0,6,Normal,0,No suspicious behaviour detected,Normal,Low,New
+573,employee3,12,1,3,1,1,Normal,0,No suspicious behaviour detected,Normal,Low,New
+574,employee2,11,0,1,0,4,Normal,0,No suspicious behaviour detected,Normal,Low,New
+575,admin,18,0,8,0,3,Normal,0,No suspicious behaviour detected,Normal,Low,New
+576,analyst,23,11,34,2,26,Suspicious,100,"Unusual login time, Multiple failed login attempts, Excessive file access, Unusual privilege escalation, Unusual network connections",Suspicious,High,New
+577,employee2,16,0,2,0,7,Normal,0,No suspicious behaviour detected,Normal,Low,New
+578,employee2,10,0,2,0,6,Normal,0,No suspicious behaviour detected,Normal,Low,New
+579,admin,14,0,8,0,1,Normal,0,No suspicious behaviour detected,Normal,Low,New
+580,admin,9,0,7,0,6,Normal,0,No suspicious behaviour detected,Normal,Low,New
+581,analyst,13,0,2,0,7,Normal,0,No suspicious behaviour detected,Normal,Low,New
+582,admin,11,0,4,1,7,Normal,0,No suspicious behaviour detected,Normal,Low,New
+583,employee2,14,0,1,0,5,Normal,0,No suspicious behaviour detected,Normal,Low,New
+584,employee1,14,0,5,0,2,Normal,0,No suspicious behaviour detected,Normal,Low,New
+585,employee2,14,1,8,0,2,Normal,0,No suspicious behaviour detected,Normal,Low,New
+586,employee1,17,0,4,0,2,Normal,0,No suspicious behaviour detected,Normal,Low,New
+587,employee2,18,0,1,0,5,Normal,0,No suspicious behaviour detected,Normal,Low,New
+588,employee1,12,1,5,0,6,Normal,0,No suspicious behaviour detected,Normal,Low,New
+589,employee1,10,0,9,0,1,Normal,0,No suspicious behaviour detected,Normal,Low,New
+590,analyst,15,0,1,0,2,Normal,0,No suspicious behaviour detected,Normal,Low,New
+591,admin,15,0,3,0,5,Normal,0,No suspicious behaviour detected,Normal,Low,New
+592,employee2,16,0,8,0,7,Normal,0,No suspicious behaviour detected,Normal,Low,New
+593,employee2,15,1,1,1,5,Normal,0,No suspicious behaviour detected,Normal,Low,New
+594,analyst,11,1,7,1,4,Normal,0,No suspicious behaviour detected,Normal,Low,New
+595,employee2,17,1,8,0,5,Normal,0,No suspicious behaviour detected,Normal,Low,New
+596,admin,13,1,8,0,7,Normal,0,No suspicious behaviour detected,Normal,Low,New
+597,admin,15,0,3,0,1,Normal,0,No suspicious behaviour detected,Normal,Low,New
+598,employee1,10,0,3,0,1,Normal,0,No suspicious behaviour detected,Normal,Low,New
+599,admin,9,1,4,0,6,Normal,0,No suspicious behaviour detected,Normal,Low,New
+600,employee3,15,0,5,0,6,Normal,0,No suspicious behaviour detected,Normal,Low,New
+601,admin,10,0,3,0,2,Normal,0,No suspicious behaviour detected,Normal,Low,New
+602,employee3,11,1,5,1,5,Normal,0,No suspicious behaviour detected,Normal,Low,New
+603,admin,18,1,9,0,1,Normal,0,No suspicious behaviour detected,Normal,Low,New
+604,admin,12,1,4,0,6,Normal,0,No suspicious behaviour detected,Normal,Low,New
+605,analyst,15,0,7,0,2,Normal,0,No suspicious behaviour detected,Normal,Low,New
+606,admin,1,10,41,2,31,Suspicious,100,"Unusual login time, Multiple failed login attempts, Excessive file access, Unusual privilege escalation, Unusual network connections",Suspicious,High,New
+607,employee2,11,0,8,0,7,Normal,0,No suspicious behaviour detected,Normal,Low,New
+608,admin,12,1,7,0,1,Normal,0,No suspicious behaviour detected,Normal,Low,New
+609,employee3,18,0,1,0,4,Normal,0,No suspicious behaviour detected,Normal,Low,New
+610,admin,9,0,6,0,5,Normal,0,No suspicious behaviour detected,Normal,Low,New
+611,admin,10,0,4,0,3,Normal,0,No suspicious behaviour detected,Normal,Low,New
+612,employee1,13,0,3,0,5,Normal,0,No suspicious behaviour detected,Normal,Low,New
+613,employee1,9,1,1,0,6,Normal,0,No suspicious behaviour detected,Normal,Low,New
+614,analyst,11,0,3,0,1,Normal,0,No suspicious behaviour detected,Normal,Low,New
+615,employee3,10,1,2,0,4,Normal,0,No suspicious behaviour detected,Normal,Low,New
+616,employee1,18,0,7,0,7,Normal,0,No suspicious behaviour detected,Normal,Low,New
+617,analyst,23,4,52,2,24,Suspicious,100,"Unusual login time, Multiple failed login attempts, Excessive file access, Unusual privilege escalation, Unusual network connections",Suspicious,High,New
+618,admin,14,0,3,0,7,Normal,0,No suspicious behaviour detected,Normal,Low,New
+619,employee2,1,7,57,2,19,Suspicious,100,"Unusual login time, Multiple failed login attempts, Excessive file access, Unusual privilege escalation, Unusual network connections",Suspicious,High,New
+620,employee3,8,1,1,0,4,Normal,0,No suspicious behaviour detected,Normal,Low,New
+621,employee3,0,11,29,2,24,Suspicious,100,"Unusual login time, Multiple failed login attempts, Excessive file access, Unusual privilege escalation, Unusual network connections",Suspicious,High,New
+622,employee2,8,0,2,0,3,Normal,0,No suspicious behaviour detected,Normal,Low,New
+623,analyst,13,0,8,0,6,Normal,0,No suspicious behaviour detected,Normal,Low,New
+624,employee2,10,0,4,0,3,Normal,0,No suspicious behaviour detected,Normal,Low,New
+625,analyst,10,1,8,0,3,Normal,0,No suspicious behaviour detected,Normal,Low,New
+626,employee3,17,0,9,0,1,Normal,0,No suspicious behaviour detected,Normal,Low,New
+627,analyst,10,1,8,0,2,Normal,0,No suspicious behaviour detected,Normal,Low,New
+628,admin,1,7,48,2,30,Suspicious,100,"Unusual login time, Multiple failed login attempts, Excessive file access, Unusual privilege escalation, Unusual network connections",Suspicious,High,New
+629,analyst,2,4,22,2,17,Suspicious,100,"Unusual login time, Multiple failed login attempts, Excessive file access, Unusual privilege escalation, Unusual network connections",Suspicious,High,New
+630,employee1,18,1,9,0,5,Normal,0,No suspicious behaviour detected,Normal,Low,New
+631,employee2,2,7,26,2,25,Suspicious,100,"Unusual login time, Multiple failed login attempts, Excessive file access, Unusual privilege escalation, Unusual network connections",Suspicious,High,New
+632,employee3,17,1,5,0,2,Normal,0,No suspicious behaviour detected,Normal,Low,New
+633,employee3,11,0,8,0,4,Normal,0,No suspicious behaviour detected,Normal,Low,New
+634,admin,14,1,3,0,7,Normal,0,No suspicious behaviour detected,Normal,Low,New
+635,employee2,11,1,2,0,3,Normal,0,No suspicious behaviour detected,Normal,Low,New
+636,employee1,14,1,5,0,3,Normal,0,No suspicious behaviour detected,Normal,Low,New
+637,analyst,8,0,8,1,6,Normal,0,No suspicious behaviour detected,Normal,Low,New
+638,employee3,2,6,56,2,28,Suspicious,100,"Unusual login time, Multiple failed login attempts, Excessive file access, Unusual privilege escalation, Unusual network connections",Suspicious,High,New
+639,admin,11,0,2,0,3,Normal,0,No suspicious behaviour detected,Normal,Low,New
+640,employee3,23,4,47,2,15,Suspicious,100,"Unusual login time, Multiple failed login attempts, Excessive file access, Unusual privilege escalation, Unusual network connections",Suspicious,High,New
+641,admin,16,1,5,0,6,Normal,0,No suspicious behaviour detected,Normal,Low,New
+642,employee3,14,0,8,0,5,Normal,0,No suspicious behaviour detected,Normal,Low,New
+643,admin,18,1,9,0,7,Normal,0,No suspicious behaviour detected,Normal,Low,New
+644,employee1,0,4,29,2,24,Suspicious,100,"Unusual login time, Multiple failed login attempts, Excessive file access, Unusual privilege escalation, Unusual network connections",Suspicious,High,New
+645,employee3,9,1,9,0,5,Normal,0,No suspicious behaviour detected,Normal,Low,New
+646,employee1,17,1,4,0,2,Normal,0,No suspicious behaviour detected,Normal,Low,New
+647,admin,0,7,53,2,18,Suspicious,100,"Unusual login time, Multiple failed login attempts, Excessive file access, Unusual privilege escalation, Unusual network connections",Suspicious,High,New
+648,admin,8,1,1,0,6,Normal,0,No suspicious behaviour detected,Normal,Low,New
+649,employee2,16,0,1,0,1,Normal,0,No suspicious behaviour detected,Normal,Low,New
+650,employee2,12,1,5,0,3,Normal,0,No suspicious behaviour detected,Normal,Low,New
+651,analyst,15,1,9,0,3,Normal,0,No suspicious behaviour detected,Normal,Low,New
+652,admin,9,1,5,0,6,Normal,0,No suspicious behaviour detected,Normal,Low,New
+653,employee2,14,1,9,0,6,Normal,0,No suspicious behaviour detected,Normal,Low,New
+654,analyst,10,1,1,0,1,Normal,0,No suspicious behaviour detected,Normal,Low,New
+655,admin,23,5,28,2,17,Suspicious,100,"Unusual login time, Multiple failed login attempts, Excessive file access, Unusual privilege escalation, Unusual network connections",Suspicious,High,New
+656,employee1,16,1,4,0,2,Normal,0,No suspicious behaviour detected,Normal,Low,New
+657,employee3,18,0,8,0,7,Normal,0,No suspicious behaviour detected,Normal,Low,New
+658,admin,3,6,45,2,18,Suspicious,100,"Unusual login time, Multiple failed login attempts, Excessive file access, Unusual privilege escalation, Unusual network connections",Suspicious,High,New
+659,employee2,13,0,7,0,1,Normal,0,No suspicious behaviour detected,Normal,Low,New
+660,employee1,3,9,49,2,34,Suspicious,100,"Unusual login time, Multiple failed login attempts, Excessive file access, Unusual privilege escalation, Unusual network connections",Suspicious,High,New
+661,admin,11,0,1,0,6,Normal,0,No suspicious behaviour detected,Normal,Low,New
+662,employee2,10,0,6,0,6,Normal,0,No suspicious behaviour detected,Normal,Low,New
+663,employee2,2,5,47,2,29,Suspicious,100,"Unusual login time, Multiple failed login attempts, Excessive file access, Unusual privilege escalation, Unusual network connections",Suspicious,High,New
+664,employee1,12,1,1,0,1,Normal,0,No suspicious behaviour detected,Normal,Low,New
+665,admin,9,1,8,0,3,Normal,0,No suspicious behaviour detected,Normal,Low,New
+666,employee1,18,0,2,0,4,Normal,0,No suspicious behaviour detected,Normal,Low,New
+667,employee2,13,0,9,0,6,Normal,0,No suspicious behaviour detected,Normal,Low,New
+668,employee1,12,1,6,1,4,Normal,0,No suspicious behaviour detected,Normal,Low,New
+669,employee1,18,0,5,0,7,Normal,0,No suspicious behaviour detected,Normal,Low,New
+670,analyst,15,1,8,0,5,Normal,0,No suspicious behaviour detected,Normal,Low,New
+671,employee1,18,0,1,0,2,Normal,0,No suspicious behaviour detected,Normal,Low,New
+672,employee2,10,0,6,0,4,Normal,0,No suspicious behaviour detected,Normal,Low,New
+673,employee2,12,0,8,0,1,Normal,0,No suspicious behaviour detected,Normal,Low,New
+674,analyst,15,0,8,1,2,Normal,0,No suspicious behaviour detected,Normal,Low,New
+675,employee1,15,0,2,0,3,Normal,0,No suspicious behaviour detected,Normal,Low,New
+676,admin,11,0,5,0,1,Normal,0,No suspicious behaviour detected,Normal,Low,New
+677,employee3,12,1,6,0,4,Normal,0,No suspicious behaviour detected,Normal,Low,New
+678,employee2,18,1,5,0,6,Normal,0,No suspicious behaviour detected,Normal,Low,New
+679,analyst,4,9,38,2,22,Suspicious,100,"Unusual login time, Multiple failed login attempts, Excessive file access, Unusual privilege escalation, Unusual network connections",Suspicious,High,New
+680,admin,12,0,6,0,7,Normal,0,No suspicious behaviour detected,Normal,Low,New
+681,employee2,9,0,9,0,2,Normal,0,No suspicious behaviour detected,Normal,Low,New
+682,admin,15,1,3,0,4,Normal,0,No suspicious behaviour detected,Normal,Low,New
+683,employee2,13,0,5,0,6,Normal,0,No suspicious behaviour detected,Normal,Low,New
+684,employee2,8,1,2,0,2,Normal,0,No suspicious behaviour detected,Normal,Low,New
+685,employee3,8,0,1,0,2,Normal,0,No suspicious behaviour detected,Normal,Low,New
+686,employee3,16,0,8,0,2,Normal,0,No suspicious behaviour detected,Normal,Low,New
+687,employee1,12,1,1,0,1,Normal,0,No suspicious behaviour detected,Normal,Low,New
+688,analyst,16,1,8,0,6,Normal,0,No suspicious behaviour detected,Normal,Low,New
+689,employee2,8,1,8,0,4,Normal,0,No suspicious behaviour detected,Normal,Low,New
+690,employee1,9,0,5,0,5,Normal,0,No suspicious behaviour detected,Normal,Low,New
+691,analyst,17,0,7,0,5,Normal,0,No suspicious behaviour detected,Normal,Low,New
+692,analyst,9,0,3,0,2,Normal,0,No suspicious behaviour detected,Normal,Low,New
+693,analyst,9,0,6,0,4,Normal,0,No suspicious behaviour detected,Normal,Low,New
+694,employee2,17,1,9,0,1,Normal,0,No suspicious behaviour detected,Normal,Low,New
+695,employee1,18,1,6,0,6,Normal,0,No suspicious behaviour detected,Normal,Low,New
+696,analyst,13,1,4,0,2,Normal,0,No suspicious behaviour detected,Normal,Low,New
+697,analyst,13,0,4,0,5,Normal,0,No suspicious behaviour detected,Normal,Low,New
+698,employee1,15,1,5,0,4,Normal,0,No suspicious behaviour detected,Normal,Low,New
+699,employee3,18,1,6,0,1,Normal,0,No suspicious behaviour detected,Normal,Low,New
+700,employee2,16,1,8,0,5,Normal,0,No suspicious behaviour detected,Normal,Low,New
+701,employee3,17,0,1,0,5,Normal,0,No suspicious behaviour detected,Normal,Low,New
+702,admin,13,1,8,0,5,Normal,0,No suspicious behaviour detected,Normal,Low,New
+703,employee3,11,0,6,0,2,Normal,0,No suspicious behaviour detected,Normal,Low,New
+704,employee2,11,0,1,0,2,Normal,0,No suspicious behaviour detected,Normal,Low,New
+705,employee3,12,1,7,0,2,Normal,0,No suspicious behaviour detected,Normal,Low,New
+706,employee3,8,0,9,0,5,Normal,0,No suspicious behaviour detected,Normal,Low,New
+707,employee2,15,0,9,0,3,Normal,0,No suspicious behaviour detected,Normal,Low,New
+708,analyst,13,0,6,0,4,Normal,0,No suspicious behaviour detected,Normal,Low,New
+709,analyst,8,0,8,0,5,Normal,0,No suspicious behaviour detected,Normal,Low,New
+710,employee2,0,7,38,2,28,Suspicious,100,"Unusual login time, Multiple failed login attempts, Excessive file access, Unusual privilege escalation, Unusual network connections",Suspicious,High,New
+711,employee3,18,1,3,0,6,Normal,0,No suspicious behaviour detected,Normal,Low,New
+712,admin,8,1,4,0,3,Normal,0,No suspicious behaviour detected,Normal,Low,New
+713,employee1,8,0,2,0,1,Normal,0,No suspicious behaviour detected,Normal,Low,New
+714,employee3,18,0,9,0,4,Normal,0,No suspicious behaviour detected,Normal,Low,New
+715,admin,16,1,9,0,7,Normal,0,No suspicious behaviour detected,Normal,Low,New
+716,employee3,15,0,7,0,5,Normal,0,No suspicious behaviour detected,Normal,Low,New
+717,employee1,13,1,2,0,7,Normal,0,No suspicious behaviour detected,Normal,Low,New
+718,employee3,13,0,6,0,7,Normal,0,No suspicious behaviour detected,Normal,Low,New
+719,employee3,18,0,4,0,4,Normal,0,No suspicious behaviour detected,Normal,Low,New
+720,employee1,15,1,1,0,2,Normal,0,No suspicious behaviour detected,Normal,Low,New
+721,admin,4,10,47,2,25,Suspicious,100,"Unusual login time, Multiple failed login attempts, Excessive file access, Unusual privilege escalation, Unusual network connections",Suspicious,High,New
+722,employee1,14,1,7,0,5,Normal,0,No suspicious behaviour detected,Normal,Low,New
+723,employee2,16,1,8,0,1,Normal,0,No suspicious behaviour detected,Normal,Low,New
+724,admin,13,1,5,0,3,Normal,0,No suspicious behaviour detected,Normal,Low,New
+725,employee3,15,0,7,0,3,Normal,0,No suspicious behaviour detected,Normal,Low,New
+726,employee2,8,0,3,0,1,Normal,0,No suspicious behaviour detected,Normal,Low,New
+727,employee1,18,0,7,0,4,Normal,0,No suspicious behaviour detected,Normal,Low,New
+728,employee3,13,0,8,0,5,Normal,0,No suspicious behaviour detected,Normal,Low,New
+729,employee3,15,0,8,1,7,Normal,0,No suspicious behaviour detected,Normal,Low,New
+730,admin,13,0,6,0,5,Normal,0,No suspicious behaviour detected,Normal,Low,New
+731,admin,16,1,5,0,1,Normal,0,No suspicious behaviour detected,Normal,Low,New
+732,employee3,9,1,5,0,3,Normal,0,No suspicious behaviour detected,Normal,Low,New
+733,analyst,2,7,54,2,19,Suspicious,100,"Unusual login time, Multiple failed login attempts, Excessive file access, Unusual privilege escalation, Unusual network connections",Suspicious,High,New
+734,analyst,17,0,9,0,5,Normal,0,No suspicious behaviour detected,Normal,Low,New
+735,employee1,2,6,22,2,26,Suspicious,100,"Unusual login time, Multiple failed login attempts, Excessive file access, Unusual privilege escalation, Unusual network connections",Suspicious,High,New
+736,admin,9,1,3,0,1,Normal,0,No suspicious behaviour detected,Normal,Low,New
+737,analyst,11,1,5,0,7,Normal,0,No suspicious behaviour detected,Normal,Low,New
+738,employee2,13,1,8,0,4,Normal,0,No suspicious behaviour detected,Normal,Low,New
+739,analyst,11,0,2,0,2,Normal,0,No suspicious behaviour detected,Normal,Low,New
+740,employee3,18,1,3,0,4,Normal,0,No suspicious behaviour detected,Normal,Low,New
+741,employee1,10,1,2,0,4,Normal,0,No suspicious behaviour detected,Normal,Low,New
+742,analyst,9,0,7,0,7,Normal,0,No suspicious behaviour detected,Normal,Low,New
+743,analyst,10,0,5,0,1,Normal,0,No suspicious behaviour detected,Normal,Low,New
+744,employee1,0,5,31,2,22,Suspicious,100,"Unusual login time, Multiple failed login attempts, Excessive file access, Unusual privilege escalation, Unusual network connections",Suspicious,High,New
+745,employee1,12,1,3,0,2,Normal,0,No suspicious behaviour detected,Normal,Low,New
+746,employee3,12,1,8,0,3,Normal,0,No suspicious behaviour detected,Normal,Low,New
+747,admin,1,11,39,2,21,Suspicious,100,"Unusual login time, Multiple failed login attempts, Excessive file access, Unusual privilege escalation, Unusual network connections",Suspicious,High,New
+748,admin,10,1,3,0,1,Normal,0,No suspicious behaviour detected,Normal,Low,New
+749,employee1,9,0,4,0,1,Normal,0,No suspicious behaviour detected,Normal,Low,New
+750,analyst,4,5,33,2,19,Suspicious,100,"Unusual login time, Multiple failed login attempts, Excessive file access, Unusual privilege escalation, Unusual network connections",Suspicious,High,New
+751,employee2,15,1,9,0,5,Normal,0,No suspicious behaviour detected,Normal,Low,New
+752,employee2,12,0,4,0,6,Normal,0,No suspicious behaviour detected,Normal,Low,New
+753,employee2,11,1,3,1,3,Normal,0,No suspicious behaviour detected,Normal,Low,New
+754,analyst,10,0,6,0,5,Normal,0,No suspicious behaviour detected,Normal,Low,New
+755,employee2,2,6,50,2,18,Suspicious,100,"Unusual login time, Multiple failed login attempts, Excessive file access, Unusual privilege escalation, Unusual network connections",Suspicious,High,New
+756,employee1,18,0,9,0,7,Normal,0,No suspicious behaviour detected,Normal,Low,New
+757,employee2,18,1,7,0,6,Normal,0,No suspicious behaviour detected,Normal,Low,New
+758,employee1,13,0,3,0,1,Normal,0,No suspicious behaviour detected,Normal,Low,New
+759,employee3,13,1,4,0,7,Normal,0,No suspicious behaviour detected,Normal,Low,New
+760,admin,10,0,4,0,6,Normal,0,No suspicious behaviour detected,Normal,Low,New
+761,analyst,12,0,8,0,1,Normal,0,No suspicious behaviour detected,Normal,Low,New
+762,employee2,12,0,8,0,2,Normal,0,No suspicious behaviour detected,Normal,Low,New
+763,employee2,14,1,4,0,1,Normal,0,No suspicious behaviour detected,Normal,Low,New
+764,employee2,10,1,1,0,7,Normal,0,No suspicious behaviour detected,Normal,Low,New
+765,admin,8,0,7,0,6,Normal,0,No suspicious behaviour detected,Normal,Low,New
+766,employee3,14,1,8,0,1,Normal,0,No suspicious behaviour detected,Normal,Low,New
+767,analyst,10,1,2,0,6,Normal,0,No suspicious behaviour detected,Normal,Low,New
+768,admin,23,8,31,2,37,Suspicious,100,"Unusual login time, Multiple failed login attempts, Excessive file access, Unusual privilege escalation, Unusual network connections",Suspicious,High,New
+769,analyst,13,0,5,0,2,Normal,0,No suspicious behaviour detected,Normal,Low,New
+770,analyst,12,1,9,0,4,Normal,0,No suspicious behaviour detected,Normal,Low,New
+771,employee1,9,0,4,0,2,Normal,0,No suspicious behaviour detected,Normal,Low,New
+772,analyst,13,1,1,0,1,Normal,0,No suspicious behaviour detected,Normal,Low,New
+773,employee2,9,0,6,0,6,Normal,0,No suspicious behaviour detected,Normal,Low,New
+774,employee3,10,1,9,0,5,Normal,0,No suspicious behaviour detected,Normal,Low,New
+775,employee3,17,0,2,1,6,Normal,0,No suspicious behaviour detected,Normal,Low,New
+776,employee2,12,1,2,0,2,Normal,0,No suspicious behaviour detected,Normal,Low,New
+777,analyst,18,1,8,1,7,Normal,0,No suspicious behaviour detected,Normal,Low,New
+778,employee1,10,1,3,0,2,Normal,0,No suspicious behaviour detected,Normal,Low,New
+779,employee1,11,1,7,0,5,Normal,0,No suspicious behaviour detected,Normal,Low,New
+780,employee1,11,0,3,0,4,Normal,0,No suspicious behaviour detected,Normal,Low,New
+781,employee2,9,0,5,1,2,Normal,0,No suspicious behaviour detected,Normal,Low,New
+782,employee1,14,1,6,0,1,Normal,0,No suspicious behaviour detected,Normal,Low,New
+783,employee2,15,0,1,0,6,Normal,0,No suspicious behaviour detected,Normal,Low,New
+784,analyst,11,0,3,0,1,Normal,0,No suspicious behaviour detected,Normal,Low,New
+785,admin,12,0,4,0,4,Normal,0,No suspicious behaviour detected,Normal,Low,New
+786,employee1,14,0,7,0,6,Normal,0,No suspicious behaviour detected,Normal,Low,New
+787,analyst,3,4,31,2,20,Suspicious,100,"Unusual login time, Multiple failed login attempts, Excessive file access, Unusual privilege escalation, Unusual network connections",Suspicious,High,New
+788,employee3,16,1,1,0,3,Normal,0,No suspicious behaviour detected,Normal,Low,New
+789,employee2,12,1,6,1,3,Normal,0,No suspicious behaviour detected,Normal,Low,New
+790,employee3,14,1,9,0,4,Normal,0,No suspicious behaviour detected,Normal,Low,New
+791,analyst,14,0,8,0,4,Normal,0,No suspicious behaviour detected,Normal,Low,New
+792,employee2,18,0,9,0,1,Normal,0,No suspicious behaviour detected,Normal,Low,New
+793,employee1,4,11,41,2,16,Suspicious,100,"Unusual login time, Multiple failed login attempts, Excessive file access, Unusual privilege escalation, Unusual network connections",Suspicious,High,New
+794,admin,0,9,53,2,19,Suspicious,100,"Unusual login time, Multiple failed login attempts, Excessive file access, Unusual privilege escalation, Unusual network connections",Suspicious,High,New
+795,employee1,3,7,38,2,25,Suspicious,100,"Unusual login time, Multiple failed login attempts, Excessive file access, Unusual privilege escalation, Unusual network connections",Suspicious,High,New
+796,admin,9,1,2,0,5,Normal,0,No suspicious behaviour detected,Normal,Low,New
+797,employee2,9,1,4,0,6,Normal,0,No suspicious behaviour detected,Normal,Low,New
+798,employee2,17,0,1,0,5,Normal,0,No suspicious behaviour detected,Normal,Low,New
+799,admin,10,1,7,0,6,Normal,0,No suspicious behaviour detected,Normal,Low,New
+800,analyst,15,0,2,0,4,Normal,0,No suspicious behaviour detected,Normal,Low,New
+801,employee1,11,1,6,0,2,Normal,0,No suspicious behaviour detected,Normal,Low,New
+802,admin,23,5,30,2,36,Suspicious,100,"Unusual login time, Multiple failed login attempts, Excessive file access, Unusual privilege escalation, Unusual network connections",Suspicious,High,New
+803,employee1,17,1,8,0,4,Normal,0,No suspicious behaviour detected,Normal,Low,New
+804,employee1,18,0,2,0,1,Normal,0,No suspicious behaviour detected,Normal,Low,New
+805,employee1,8,0,8,0,5,Normal,0,No suspicious behaviour detected,Normal,Low,New
+806,employee2,9,0,9,0,3,Normal,0,No suspicious behaviour detected,Normal,Low,New
+807,employee3,15,0,1,0,7,Normal,0,No suspicious behaviour detected,Normal,Low,New
+808,employee3,15,0,9,0,4,Normal,0,No suspicious behaviour detected,Normal,Low,New
+809,employee1,16,1,2,0,5,Normal,0,No suspicious behaviour detected,Normal,Low,New
+810,employee3,10,1,3,0,4,Normal,0,No suspicious behaviour detected,Normal,Low,New
+811,employee2,11,1,6,1,3,Normal,0,No suspicious behaviour detected,Normal,Low,New
+812,analyst,15,0,4,0,2,Normal,0,No suspicious behaviour detected,Normal,Low,New
+813,analyst,14,1,2,0,5,Normal,0,No suspicious behaviour detected,Normal,Low,New
+814,employee1,12,1,4,0,3,Normal,0,No suspicious behaviour detected,Normal,Low,New
+815,employee2,10,0,3,0,4,Normal,0,No suspicious behaviour detected,Normal,Low,New
+816,admin,8,0,6,0,7,Normal,0,No suspicious behaviour detected,Normal,Low,New
+817,employee2,4,8,41,2,34,Suspicious,100,"Unusual login time, Multiple failed login attempts, Excessive file access, Unusual privilege escalation, Unusual network connections",Suspicious,High,New
+818,admin,16,1,9,0,3,Normal,0,No suspicious behaviour detected,Normal,Low,New
+819,analyst,15,1,9,0,2,Normal,0,No suspicious behaviour detected,Normal,Low,New
+820,analyst,13,0,3,0,2,Normal,0,No suspicious behaviour detected,Normal,Low,New
+821,analyst,9,0,7,1,3,Normal,0,No suspicious behaviour detected,Normal,Low,New
+822,admin,9,0,8,0,1,Normal,0,No suspicious behaviour detected,Normal,Low,New
+823,employee2,13,0,7,0,1,Normal,0,No suspicious behaviour detected,Normal,Low,New
+824,employee2,17,0,5,1,6,Normal,0,No suspicious behaviour detected,Normal,Low,New
+825,employee3,18,1,3,0,7,Normal,0,No suspicious behaviour detected,Normal,Low,New
+826,employee2,12,1,6,0,4,Normal,0,No suspicious behaviour detected,Normal,Low,New
+827,employee3,11,0,5,0,3,Normal,0,No suspicious behaviour detected,Normal,Low,New
+828,employee1,12,1,4,0,2,Normal,0,No suspicious behaviour detected,Normal,Low,New
+829,analyst,17,1,4,0,4,Normal,0,No suspicious behaviour detected,Normal,Low,New
+830,employee1,14,0,1,0,4,Normal,0,No suspicious behaviour detected,Normal,Low,New
+831,employee1,15,0,6,0,7,Normal,0,No suspicious behaviour detected,Normal,Low,New
+832,employee2,18,1,9,0,3,Normal,0,No suspicious behaviour detected,Normal,Low,New
+833,admin,8,0,6,0,7,Normal,0,No suspicious behaviour detected,Normal,Low,New
+834,analyst,16,0,8,0,1,Normal,0,No suspicious behaviour detected,Normal,Low,New
+835,admin,18,0,3,0,4,Normal,0,No suspicious behaviour detected,Normal,Low,New
+836,employee2,12,1,2,0,1,Normal,0,No suspicious behaviour detected,Normal,Low,New
+837,employee3,17,0,3,0,7,Normal,0,No suspicious behaviour detected,Normal,Low,New
+838,analyst,2,7,42,2,22,Suspicious,100,"Unusual login time, Multiple failed login attempts, Excessive file access, Unusual privilege escalation, Unusual network connections",Suspicious,High,New
+839,employee1,15,0,7,0,4,Normal,0,No suspicious behaviour detected,Normal,Low,New
+840,admin,8,0,2,0,5,Normal,0,No suspicious behaviour detected,Normal,Low,New
+841,analyst,13,0,7,0,2,Normal,0,No suspicious behaviour detected,Normal,Low,New
+842,employee3,15,1,9,0,6,Normal,0,No suspicious behaviour detected,Normal,Low,New
+843,admin,14,0,3,0,1,Normal,0,No suspicious behaviour detected,Normal,Low,New
+844,analyst,11,1,6,0,3,Normal,0,No suspicious behaviour detected,Normal,Low,New
+845,analyst,11,0,9,0,5,Normal,0,No suspicious behaviour detected,Normal,Low,New
+846,analyst,9,1,3,0,1,Normal,0,No suspicious behaviour detected,Normal,Low,New
+847,employee1,15,0,2,0,7,Normal,0,No suspicious behaviour detected,Normal,Low,New
+848,employee3,16,0,9,0,6,Normal,0,No suspicious behaviour detected,Normal,Low,New
+849,employee1,12,0,5,0,4,Normal,0,No suspicious behaviour detected,Normal,Low,New
+850,employee2,13,0,6,0,6,Normal,0,No suspicious behaviour detected,Normal,Low,New
+851,employee2,15,0,1,0,5,Normal,0,No suspicious behaviour detected,Normal,Low,New
+852,employee3,11,0,7,0,3,Normal,0,No suspicious behaviour detected,Normal,Low,New
+853,employee3,14,1,2,0,3,Normal,0,No suspicious behaviour detected,Normal,Low,New
+854,employee3,11,0,5,0,6,Normal,0,No suspicious behaviour detected,Normal,Low,New
+855,analyst,18,0,9,0,6,Normal,0,No suspicious behaviour detected,Normal,Low,New
+856,admin,11,0,1,0,4,Normal,0,No suspicious behaviour detected,Normal,Low,New
+857,employee2,18,1,1,0,3,Normal,0,No suspicious behaviour detected,Normal,Low,New
+858,admin,9,0,2,0,2,Normal,0,No suspicious behaviour detected,Normal,Low,New
+859,employee1,10,0,6,0,7,Normal,0,No suspicious behaviour detected,Normal,Low,New
+860,admin,16,1,6,0,7,Normal,0,No suspicious behaviour detected,Normal,Low,New
+861,admin,11,0,4,0,4,Normal,0,No suspicious behaviour detected,Normal,Low,New
+862,admin,14,0,9,0,2,Normal,0,No suspicious behaviour detected,Normal,Low,New
+863,employee2,14,0,7,0,1,Normal,0,No suspicious behaviour detected,Normal,Low,New
+864,admin,8,1,5,0,3,Normal,0,No suspicious behaviour detected,Normal,Low,New
+865,admin,10,0,5,0,7,Normal,0,No suspicious behaviour detected,Normal,Low,New
+866,employee3,16,0,2,0,3,Normal,0,No suspicious behaviour detected,Normal,Low,New
+867,employee3,16,1,5,0,3,Normal,0,No suspicious behaviour detected,Normal,Low,New
+868,employee2,15,0,7,0,7,Normal,0,No suspicious behaviour detected,Normal,Low,New
+869,admin,11,1,6,0,3,Normal,0,No suspicious behaviour detected,Normal,Low,New
+870,admin,8,0,8,0,4,Normal,0,No suspicious behaviour detected,Normal,Low,New
+871,employee2,15,0,4,0,2,Normal,0,No suspicious behaviour detected,Normal,Low,New
+872,employee1,18,0,3,0,7,Normal,0,No suspicious behaviour detected,Normal,Low,New
+873,employee1,1,8,26,2,15,Suspicious,100,"Unusual login time, Multiple failed login attempts, Excessive file access, Unusual privilege escalation, Unusual network connections",Suspicious,High,New
+874,admin,18,1,7,0,7,Normal,0,No suspicious behaviour detected,Normal,Low,New
+875,analyst,15,0,5,0,3,Normal,0,No suspicious behaviour detected,Normal,Low,New
+876,employee3,4,8,34,2,28,Suspicious,100,"Unusual login time, Multiple failed login attempts, Excessive file access, Unusual privilege escalation, Unusual network connections",Suspicious,High,New
+877,employee3,12,0,4,0,4,Normal,0,No suspicious behaviour detected,Normal,Low,New
+878,admin,15,0,4,0,4,Normal,0,No suspicious behaviour detected,Normal,Low,New
+879,employee2,8,0,5,1,2,Normal,0,No suspicious behaviour detected,Normal,Low,New
+880,analyst,16,0,9,0,6,Normal,0,No suspicious behaviour detected,Normal,Low,New
+881,admin,16,0,3,0,3,Normal,0,No suspicious behaviour detected,Normal,Low,New
+882,employee2,11,0,9,0,6,Normal,0,No suspicious behaviour detected,Normal,Low,New
+883,analyst,18,1,2,0,3,Normal,0,No suspicious behaviour detected,Normal,Low,New
+884,employee2,18,1,3,0,6,Normal,0,No suspicious behaviour detected,Normal,Low,New
+885,employee1,8,1,4,0,7,Normal,0,No suspicious behaviour detected,Normal,Low,New
+886,employee2,8,1,2,0,2,Normal,0,No suspicious behaviour detected,Normal,Low,New
+887,employee2,14,0,1,0,7,Normal,0,No suspicious behaviour detected,Normal,Low,New
+888,analyst,8,1,5,0,4,Normal,0,No suspicious behaviour detected,Normal,Low,New
+889,employee2,12,0,6,1,7,Normal,0,No suspicious behaviour detected,Normal,Low,New
+890,employee3,16,1,3,0,5,Normal,0,No suspicious behaviour detected,Normal,Low,New
+891,employee1,17,0,6,0,3,Normal,0,No suspicious behaviour detected,Normal,Low,New
+892,admin,12,0,4,0,7,Normal,0,No suspicious behaviour detected,Normal,Low,New
+893,employee2,14,0,6,0,6,Normal,0,No suspicious behaviour detected,Normal,Low,New
+894,admin,18,0,3,0,5,Normal,0,No suspicious behaviour detected,Normal,Low,New
+895,employee1,9,1,3,0,7,Normal,0,No suspicious behaviour detected,Normal,Low,New
+896,employee3,12,0,1,0,5,Normal,0,No suspicious behaviour detected,Normal,Low,New
+897,admin,10,0,8,0,1,Normal,0,No suspicious behaviour detected,Normal,Low,New
+898,admin,14,0,4,0,4,Normal,0,No suspicious behaviour detected,Normal,Low,New
+899,admin,15,0,2,0,3,Normal,0,No suspicious behaviour detected,Normal,Low,New
+900,employee1,3,10,23,2,33,Suspicious,100,"Unusual login time, Multiple failed login attempts, Excessive file access, Unusual privilege escalation, Unusual network connections",Suspicious,High,New
+901,employee1,16,1,1,0,1,Normal,0,No suspicious behaviour detected,Normal,Low,New
+902,analyst,9,0,3,0,7,Normal,0,No suspicious behaviour detected,Normal,Low,New
+903,analyst,18,1,2,0,4,Normal,0,No suspicious behaviour detected,Normal,Low,New
+904,admin,9,0,3,1,6,Normal,0,No suspicious behaviour detected,Normal,Low,New
+905,employee1,11,0,9,0,7,Normal,0,No suspicious behaviour detected,Normal,Low,New
+906,employee3,16,1,6,0,3,Normal,0,No suspicious behaviour detected,Normal,Low,New
+907,admin,14,0,5,0,3,Normal,0,No suspicious behaviour detected,Normal,Low,New
+908,analyst,11,0,8,0,6,Normal,0,No suspicious behaviour detected,Normal,Low,New
+909,analyst,15,1,3,0,1,Normal,0,No suspicious behaviour detected,Normal,Low,New
+910,admin,10,0,4,0,2,Normal,0,No suspicious behaviour detected,Normal,Low,New
+911,employee1,15,0,7,0,1,Normal,0,No suspicious behaviour detected,Normal,Low,New
+912,employee2,12,1,5,0,3,Normal,0,No suspicious behaviour detected,Normal,Low,New
+913,admin,8,1,1,0,6,Normal,0,No suspicious behaviour detected,Normal,Low,New
+914,admin,10,0,2,0,1,Normal,0,No suspicious behaviour detected,Normal,Low,New
+915,analyst,8,0,5,0,5,Normal,0,No suspicious behaviour detected,Normal,Low,New
+916,employee2,18,1,5,0,3,Normal,0,No suspicious behaviour detected,Normal,Low,New
+917,employee2,3,9,22,2,15,Suspicious,100,"Unusual login time, Multiple failed login attempts, Excessive file access, Unusual privilege escalation, Unusual network connections",Suspicious,High,New
+918,analyst,0,6,34,2,16,Suspicious,100,"Unusual login time, Multiple failed login attempts, Excessive file access, Unusual privilege escalation, Unusual network connections",Suspicious,High,New
+919,employee3,8,0,1,0,3,Normal,0,No suspicious behaviour detected,Normal,Low,New
+920,analyst,9,0,3,0,7,Normal,0,No suspicious behaviour detected,Normal,Low,New
+921,employee3,17,1,2,0,3,Normal,0,No suspicious behaviour detected,Normal,Low,New
+922,admin,18,1,3,0,3,Normal,0,No suspicious behaviour detected,Normal,Low,New
+923,employee2,18,0,8,0,6,Normal,0,No suspicious behaviour detected,Normal,Low,New
+924,employee3,11,1,3,0,2,Normal,0,No suspicious behaviour detected,Normal,Low,New
+925,analyst,13,1,7,0,6,Normal,0,No suspicious behaviour detected,Normal,Low,New
+926,employee3,17,0,7,0,1,Normal,0,No suspicious behaviour detected,Normal,Low,New
+927,employee3,9,0,4,0,2,Normal,0,No suspicious behaviour detected,Normal,Low,New
+928,admin,11,0,5,0,7,Normal,0,No suspicious behaviour detected,Normal,Low,New
+929,analyst,11,1,3,0,2,Normal,0,No suspicious behaviour detected,Normal,Low,New
+930,employee3,10,1,3,0,5,Normal,0,No suspicious behaviour detected,Normal,Low,New
+931,analyst,9,0,8,0,6,Normal,0,No suspicious behaviour detected,Normal,Low,New
+932,admin,17,1,8,0,2,Normal,0,No suspicious behaviour detected,Normal,Low,New
+933,employee2,15,1,2,0,6,Normal,0,No suspicious behaviour detected,Normal,Low,New
+934,employee3,13,0,3,0,2,Normal,0,No suspicious behaviour detected,Normal,Low,New
+935,admin,15,1,3,0,3,Normal,0,No suspicious behaviour detected,Normal,Low,New
+936,employee3,17,1,5,0,3,Normal,0,No suspicious behaviour detected,Normal,Low,New
+937,employee1,12,1,5,0,5,Normal,0,No suspicious behaviour detected,Normal,Low,New
+938,analyst,13,0,7,0,3,Normal,0,No suspicious behaviour detected,Normal,Low,New
+939,employee3,13,0,2,0,1,Normal,0,No suspicious behaviour detected,Normal,Low,New
+940,admin,11,1,7,0,5,Normal,0,No suspicious behaviour detected,Normal,Low,New
+941,employee2,15,1,9,1,7,Normal,0,No suspicious behaviour detected,Normal,Low,New
+942,employee2,1,10,26,2,29,Suspicious,100,"Unusual login time, Multiple failed login attempts, Excessive file access, Unusual privilege escalation, Unusual network connections",Suspicious,High,New
+943,admin,18,1,3,0,3,Normal,0,No suspicious behaviour detected,Normal,Low,New
+944,analyst,12,0,8,1,6,Normal,0,No suspicious behaviour detected,Normal,Low,New
+945,employee1,9,0,8,0,7,Normal,0,No suspicious behaviour detected,Normal,Low,New
+946,analyst,3,9,49,2,21,Suspicious,100,"Unusual login time, Multiple failed login attempts, Excessive file access, Unusual privilege escalation, Unusual network connections",Suspicious,High,New
+947,analyst,16,1,3,0,1,Normal,0,No suspicious behaviour detected,Normal,Low,New
+948,employee2,10,1,5,0,3,Normal,0,No suspicious behaviour detected,Normal,Low,New
+949,analyst,12,1,7,0,3,Normal,0,No suspicious behaviour detected,Normal,Low,New
+950,employee2,8,1,9,0,7,Normal,0,No suspicious behaviour detected,Normal,Low,New
+951,admin,9,0,8,0,1,Normal,0,No suspicious behaviour detected,Normal,Low,New
+952,employee2,18,0,7,0,6,Normal,0,No suspicious behaviour detected,Normal,Low,New
+953,employee3,18,0,6,0,3,Normal,0,No suspicious behaviour detected,Normal,Low,New
+954,employee2,9,1,6,0,2,Normal,0,No suspicious behaviour detected,Normal,Low,New
+955,admin,15,0,5,0,4,Normal,0,No suspicious behaviour detected,Normal,Low,New
+956,employee3,8,0,5,0,2,Normal,0,No suspicious behaviour detected,Normal,Low,New
+957,employee3,13,1,7,0,5,Normal,0,No suspicious behaviour detected,Normal,Low,New
+958,employee1,8,1,6,0,4,Normal,0,No suspicious behaviour detected,Normal,Low,New
+959,admin,9,0,6,0,3,Normal,0,No suspicious behaviour detected,Normal,Low,New
+960,employee3,17,0,9,0,4,Normal,0,No suspicious behaviour detected,Normal,Low,New
+961,analyst,14,0,5,0,2,Normal,0,No suspicious behaviour detected,Normal,Low,New
+962,employee3,14,0,3,0,1,Normal,0,No suspicious behaviour detected,Normal,Low,New
+963,analyst,14,1,7,0,7,Normal,0,No suspicious behaviour detected,Normal,Low,New
+964,employee1,11,1,5,0,6,Normal,0,No suspicious behaviour detected,Normal,Low,New
+965,analyst,10,1,3,0,2,Normal,0,No suspicious behaviour detected,Normal,Low,New
+966,employee2,10,1,2,0,6,Normal,0,No suspicious behaviour detected,Normal,Low,New
+967,admin,12,1,1,0,6,Normal,0,No suspicious behaviour detected,Normal,Low,New
+968,analyst,14,1,8,0,6,Normal,0,No suspicious behaviour detected,Normal,Low,New
+969,employee2,12,0,5,0,6,Normal,0,No suspicious behaviour detected,Normal,Low,New
+970,employee1,11,0,3,0,4,Normal,0,No suspicious behaviour detected,Normal,Low,New
+971,analyst,0,8,44,2,36,Suspicious,100,"Unusual login time, Multiple failed login attempts, Excessive file access, Unusual privilege escalation, Unusual network connections",Suspicious,High,New
+972,employee2,17,1,3,0,4,Normal,0,No suspicious behaviour detected,Normal,Low,New
+973,employee3,13,0,2,0,4,Normal,0,No suspicious behaviour detected,Normal,Low,New
+974,employee1,11,0,6,0,5,Normal,0,No suspicious behaviour detected,Normal,Low,New
+975,admin,9,0,5,1,6,Normal,0,No suspicious behaviour detected,Normal,Low,New
+976,employee3,12,1,3,0,7,Normal,0,No suspicious behaviour detected,Normal,Low,New
+977,admin,15,0,7,0,5,Normal,0,No suspicious behaviour detected,Normal,Low,New
+978,employee1,11,1,9,0,3,Normal,0,No suspicious behaviour detected,Normal,Low,New
+979,employee1,10,1,9,0,4,Normal,0,No suspicious behaviour detected,Normal,Low,New
+980,employee2,11,0,9,0,2,Normal,0,No suspicious behaviour detected,Normal,Low,New
+981,admin,10,1,3,0,2,Normal,0,No suspicious behaviour detected,Normal,Low,New
+982,admin,8,1,9,0,5,Normal,0,No suspicious behaviour detected,Normal,Low,New
+983,employee2,13,0,4,0,7,Normal,0,No suspicious behaviour detected,Normal,Low,New
+984,analyst,13,0,3,0,3,Normal,0,No suspicious behaviour detected,Normal,Low,New
+985,employee1,13,0,7,0,1,Normal,0,No suspicious behaviour detected,Normal,Low,New
+986,admin,8,1,4,0,6,Normal,0,No suspicious behaviour detected,Normal,Low,New
+987,admin,9,1,2,0,3,Normal,0,No suspicious behaviour detected,Normal,Low,New
+988,analyst,10,1,9,0,1,Normal,0,No suspicious behaviour detected,Normal,Low,New
+989,employee1,14,0,8,1,5,Normal,0,No suspicious behaviour detected,Normal,Low,New
+990,employee3,14,0,2,0,5,Normal,0,No suspicious behaviour detected,Normal,Low,New
+991,employee2,16,0,7,0,5,Normal,0,No suspicious behaviour detected,Normal,Low,New
+992,employee1,14,1,9,0,2,Normal,0,No suspicious behaviour detected,Normal,Low,New
+993,analyst,18,0,4,1,7,Normal,0,No suspicious behaviour detected,Normal,Low,New
+994,employee2,9,0,1,0,2,Normal,0,No suspicious behaviour detected,Normal,Low,New
+995,employee2,12,1,9,0,4,Normal,0,No suspicious behaviour detected,Normal,Low,New
+996,employee2,14,0,8,0,4,Normal,0,No suspicious behaviour detected,Normal,Low,New
+997,employee2,18,0,1,1,4,Normal,0,No suspicious behaviour detected,Normal,Low,New
+998,analyst,13,1,5,0,7,Normal,0,No suspicious behaviour detected,Normal,Low,New
+999,admin,8,1,4,0,7,Normal,0,No suspicious behaviour detected,Normal,Low,New
+1000,admin,8,0,8,0,5,Normal,0,No suspicious behaviour detected,Normal,Low,New

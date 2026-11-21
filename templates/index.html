@@ -1,0 +1,347 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Non-IoC AI/ML Security Monitor</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+</head>
+
+<body>
+
+<div class="sidebar">
+    <h2>🛡 CyberGuard</h2>
+    <p>AI Security Monitor</p>
+    <hr>
+    <a href="/">Dashboard</a>
+    <a href="#alerts">Security Alerts</a>
+    <a href="#analysis">Activity Analysis</a>
+</div>
+
+<div class="main">
+
+    <header>
+        <div>
+            <h1>Non-IoC Compromise Detection</h1>
+            <p>Behavioural Threat Monitoring System</p>
+        </div>
+        <span class="status">● System Active</span>
+    </header>
+
+    {% if suspicious > 0 %}
+    <div style="
+        background: rgba(239, 68, 68, 0.15);
+        border: 1px solid #ef4444;
+        color: #ff6b6b;
+        padding: 15px;
+        margin: 20px 0;
+        border-radius: 10px;
+        font-weight: bold;
+    ">
+        ⚠ SECURITY ALERT: {{ suspicious }} suspicious activities detected!
+        Immediate investigation recommended.
+    </div>
+    {% else %}
+    <div style="
+        background: rgba(34, 197, 94, 0.15);
+        color: #22c55e;
+        padding: 15px;
+        margin: 20px 0;
+        border-radius: 10px;
+    ">
+        ✓ No suspicious activities detected.
+    </div>
+    {% endif %}
+
+    <section class="cards">
+
+        <div class="card">
+            <h3>Total Activities</h3>
+            <h1>{{ total }}</h1>
+            <p>Analysed records</p>
+        </div>
+
+        <div class="card">
+            <h3>Normal Activities</h3>
+            <h1 class="green">{{ normal }}</h1>
+            <p>Expected behaviour</p>
+        </div>
+
+        <div class="card">
+            <h3>Suspicious Activities</h3>
+            <h1 class="red">{{ suspicious }}</h1>
+            <p>Requires investigation</p>
+        </div>
+
+    </section>
+
+        <!-- Incident Status Summary -->
+    <section class="cards">
+        <div class="card">
+            <h3>New Incidents</h3>
+            <h1>{{ incident_stats.get('New', 0) }}</h1>
+        </div>
+
+        <div class="card">
+            <h3>Investigating</h3>
+            <h1 style="color: #fbbf24;">
+                {{ incident_stats.get('Investigating', 0) }}
+            </h1>
+        </div>
+
+        <div class="card">
+            <h3>Resolved</h3>
+            <h1 class="green">{{ incident_stats.get('Resolved', 0) }}</h1>
+        </div>
+    </section>
+
+    <section class="content" id="analysis">
+
+       <div class="panel">
+        <h2>Activity Distribution</h2>
+
+        <div class="chart-container">
+            <canvas id="activityChart"></canvas>
+        </div>
+    </div>
+        <div class="panel">
+            <h2>Security Overview</h2>
+            <p>Total analysed: {{ total }}</p>
+            <p>Normal behaviour: {{ normal }}</p>
+            <p>Suspicious behaviour: {{ suspicious }}</p>
+            <hr>
+            <h3>Threat Severity Summary</h3>
+            <p class="red">High Risk: {{ high_risk }}</p>
+            <p style="color: #fbbf24;">
+                Medium Risk: {{ medium_risk }}
+            </p>
+            <p class="green">Low Risk: {{ low_risk }}</p>
+            </div>
+    </section>
+
+    <!-- User Behaviour Analysis -->
+<div class="panel">
+    <h2>👤 User Behaviour Analysis</h2>
+    <p>Users ranked by suspicious activity count</p>
+
+    <table>
+        <thead>
+            <tr>
+                <th>Rank</th>
+                <th>Username</th>
+                <th>Suspicious Activities</th>
+                <th>Average Anomaly Score</th>
+            </tr>
+            </thead>
+
+            <tbody>
+                {% for user in user_stats %}
+                <tr>
+                    <td>#{{ loop.index }}</td>
+                    <td>{{ user.user }}</td>
+                    <td>{{ user.suspicious_count }}</td>
+                    <td>{{ "%.1f"|format(user.average_score) }}</td>
+                </tr>
+                {% else %}
+                <tr>
+                    <td colspan="4">No suspicious user activity found.</td>
+                </tr>
+                {% endfor %}
+            </tbody>
+        </table>
+    </div>
+
+    <!-- Normal Activity Records -->
+<section class="panel" id="normal-activities">
+
+    <h2>✅ Normal Activity Records</h2>
+
+    <p>Showing the first 10 normal activities out of 900 records.</p>
+
+    <table>
+        <thead>
+            <tr>
+                <th>User</th>
+                <th>Login Hour</th>
+                <th>Failed Attempts</th>
+                <th>Files Accessed</th>
+                <th>Privilege Level</th>
+                <th>Anomaly Score</th>
+                <th>Risk Level</th>
+            </tr>
+        </thead>
+
+        <tbody>
+            {% for record in normal_records %}
+            <tr>
+                <td>{{ record.user }}</td>
+                <td>{{ record.login_hour }}</td>
+                <td>{{ record.failed_attempts }}</td>
+                <td>{{ record.files_accessed }}</td>
+                <td>{{ record.privilege_level }}</td>
+                <td>{{ record.anomaly_score }}</td>
+                <td>
+                    <span class="risk-{{ record.risk_level|lower }}">
+                        {{ record.risk_level }}
+                    </span>
+                </td>
+            </tr>
+            {% endfor %}
+        </tbody>
+    </table>
+
+</section>
+
+    <section class="panel alerts" id="alerts">
+
+    <h2>⚠ Suspicious Activity Alerts</h2>
+
+    <a href="/download-report" class="download-btn">
+        ⬇ Download Security Report
+    </a>
+
+    <div class="filter-section">
+        <label for="userSearch">Search Username:</label>
+        <input type="text" id="userSearch" placeholder="Enter username...">
+        <label for="riskFilter">Filter by Risk Level:</label>
+        <select id="riskFilter">
+            <option value="all">All Risk Levels</option>
+            <option value="high">High Risk</option>
+            <option value="medium">Medium Risk</option>
+            <option value="low">Low Risk</option>
+        </select>
+        <label for="statusFilter">Filter by Incident Status:</label>
+        <select id="statusFilter">
+            <option value="all">All Incident Statuses</option>
+            <option value="new">New</option>
+            <option value="investigating">Investigating</option>
+            <option value="resolved">Resolved</option>
+        </select>
+        <label for="scoreSort">Sort by Anomaly Score:</label>
+        <select id="scoreSort">
+            <option value="descending">Highest first</option>
+            <option value="ascending">Lowest first</option>
+        </select>
+    </div>
+
+        <div class="table-container">
+            <table>
+                <thead>
+                    <tr>
+                        <th>User</th>
+                        <th>Login Hour</th>
+                        <th>Failed Attempts</th>
+                        <th>Files Accessed</th>
+                        <th>Privilege Level</th>
+                        <th>Anomaly Score</th>
+                        <th>Detection Reasons</th>
+                        <th>Risk Level</th>
+                        <th>Incident Status</th>
+                    </tr>
+                </thead>
+
+                <tbody>
+                    {% for record in records %}
+                    <tr
+                        data-user="{{ record.user|lower }}"
+                        data-risk="{{ record.risk_level|lower }}"
+                        data-status="{{ record.incident_status|lower }}"
+                        data-score="{{ record.anomaly_score }}"
+                    >
+                        <td>{{ record.user }}</td>
+                        <td>{{ record.login_hour }}</td>
+                        <td>{{ record.failed_attempts }}</td>
+                        <td>{{ record.files_accessed }}</td>
+                        <td>{{ record.privilege_level }}</td>
+                        <td class="red">{{ record.anomaly_score }}</td>
+                        <td class="reason-cell">{{ record.detection_reasons }}</td>
+                        <td>
+                            <span class="risk-{{ record.risk_level|lower }}">
+                                {{ record.risk_level }}
+                            </span>
+                        </td>
+
+                        <td>
+                            <form method="POST" action="{{ url_for('update_incident', record_id=record.record_id) }}">
+                                <select name="incident_status" onchange="this.form.submit()">
+                                    <option value="New" {% if record.incident_status == "New" %}selected{% endif %}>New</option>
+                                    <option value="Investigating" {% if record.incident_status == "Investigating" %}selected{% endif %}>Investigating</option>
+                                    <option value="Resolved" {% if record.incident_status == "Resolved" %}selected{% endif %}>Resolved</option>
+                                </select>
+                            </form>
+                        </td>
+                    </tr>
+                    {% endfor %}
+                </tbody>
+            </table>
+        </div>
+    </section>
+
+    <footer>
+        Non-IoC AI/ML Compromise Detection | Cybersecurity Project
+    </footer>
+
+</div>
+
+<script>
+const ctx = document.getElementById('activityChart');
+
+new Chart(ctx, {
+    type: 'doughnut',
+    data: {
+        labels: ['Normal Activities', 'Suspicious Activities'],
+        datasets: [{
+            data: [{{ normal }}, {{ suspicious }}],
+            backgroundColor: ['#22c55e', '#ef4444'],
+            borderWidth: 0
+        }]
+    },
+    options: {
+        responsive: true,
+        maintainAspectRatio: false,
+        plugins: {
+            legend: {
+                position: 'bottom'
+            }
+        }
+    }
+});
+</script>
+
+<script>
+const riskFilter = document.getElementById("riskFilter");
+const userSearch = document.getElementById("userSearch");
+const statusFilter = document.getElementById("statusFilter");
+const scoreSort = document.getElementById("scoreSort");
+const alertTableBody = document.querySelector("#alerts tbody");
+
+function filterAlerts() {
+    const searchValue = userSearch.value.trim().toLowerCase();
+    const selectedRisk = riskFilter.value;
+    const selectedStatus = statusFilter.value;
+    const rows = Array.from(alertTableBody.querySelectorAll("tr"));
+
+    rows.forEach(row => {
+        const nameMatch = row.dataset.user.includes(searchValue);
+        const riskMatch = selectedRisk === "all" || row.dataset.risk === selectedRisk;
+        const statusMatch = selectedStatus === "all" || row.dataset.status === selectedStatus;
+        row.style.display = nameMatch && riskMatch && statusMatch ? "" : "none";
+    });
+
+    const scoreDirection = scoreSort.value === "ascending" ? 1 : -1;
+    rows.sort((a, b) => (
+        (Number(a.dataset.score) - Number(b.dataset.score)) * scoreDirection
+    ));
+    rows.forEach(row => alertTableBody.appendChild(row));
+}
+
+userSearch.addEventListener("input", filterAlerts);
+riskFilter.addEventListener("change", filterAlerts);
+statusFilter.addEventListener("change", filterAlerts);
+scoreSort.addEventListener("change", filterAlerts);
+</script>
+
+</body>
+</body>
+</html>
